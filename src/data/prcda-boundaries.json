@@ -4610,6 +4610,3600 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoopa Valley PRCDA",
+        "tribeName": "Hoopa Valley Tribe",
+        "ihsArea": "california",
+        "description": "Hoopa Valley reservation area, Trinity County, NW California",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.8,
+              41.15
+            ],
+            [
+              -123.75,
+              41.0
+            ],
+            [
+              -123.6,
+              40.95
+            ],
+            [
+              -123.5,
+              41.0
+            ],
+            [
+              -123.48,
+              41.1
+            ],
+            [
+              -123.55,
+              41.18
+            ],
+            [
+              -123.65,
+              41.2
+            ],
+            [
+              -123.75,
+              41.18
+            ],
+            [
+              -123.8,
+              41.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yurok PRCDA",
+        "tribeName": "Yurok Tribe",
+        "ihsArea": "california",
+        "description": "Yurok reservation and service area along Klamath River, Del Norte County, NW California",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.15,
+              41.6
+            ],
+            [
+              -124.1,
+              41.4
+            ],
+            [
+              -123.95,
+              41.3
+            ],
+            [
+              -123.8,
+              41.35
+            ],
+            [
+              -123.75,
+              41.45
+            ],
+            [
+              -123.8,
+              41.55
+            ],
+            [
+              -123.9,
+              41.65
+            ],
+            [
+              -124.0,
+              41.7
+            ],
+            [
+              -124.1,
+              41.68
+            ],
+            [
+              -124.15,
+              41.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karuk PRCDA",
+        "tribeName": "Karuk Tribe",
+        "ihsArea": "california",
+        "description": "Karuk ancestral territory, Happy Camp to Yreka, Siskiyou County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.6,
+              41.95
+            ],
+            [
+              -123.5,
+              41.75
+            ],
+            [
+              -123.3,
+              41.65
+            ],
+            [
+              -123.15,
+              41.7
+            ],
+            [
+              -123.1,
+              41.8
+            ],
+            [
+              -123.15,
+              41.9
+            ],
+            [
+              -123.25,
+              41.98
+            ],
+            [
+              -123.4,
+              42.0
+            ],
+            [
+              -123.55,
+              41.98
+            ],
+            [
+              -123.6,
+              41.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Round Valley PRCDA",
+        "tribeName": "Round Valley Indian Tribes",
+        "ihsArea": "california",
+        "description": "Round Valley reservation, Covelo area, Mendocino County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.4,
+              39.88
+            ],
+            [
+              -123.35,
+              39.75
+            ],
+            [
+              -123.22,
+              39.7
+            ],
+            [
+              -123.1,
+              39.73
+            ],
+            [
+              -123.08,
+              39.82
+            ],
+            [
+              -123.15,
+              39.9
+            ],
+            [
+              -123.25,
+              39.93
+            ],
+            [
+              -123.35,
+              39.92
+            ],
+            [
+              -123.4,
+              39.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "United Indian Health Services PRCDA",
+        "tribeName": "United Indian Health Services",
+        "ihsArea": "california",
+        "description": "Multi-tribal health service area, Humboldt and Del Norte Counties",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.3,
+              41.0
+            ],
+            [
+              -124.25,
+              40.65
+            ],
+            [
+              -124.1,
+              40.5
+            ],
+            [
+              -123.85,
+              40.45
+            ],
+            [
+              -123.7,
+              40.55
+            ],
+            [
+              -123.65,
+              40.7
+            ],
+            [
+              -123.7,
+              40.85
+            ],
+            [
+              -123.8,
+              40.95
+            ],
+            [
+              -123.95,
+              41.05
+            ],
+            [
+              -124.15,
+              41.08
+            ],
+            [
+              -124.3,
+              41.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tule River PRCDA",
+        "tribeName": "Tule River Tribe",
+        "ihsArea": "california",
+        "description": "Tule River reservation, Porterville area, Tulare County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.9,
+              36.18
+            ],
+            [
+              -118.85,
+              36.05
+            ],
+            [
+              -118.72,
+              36.0
+            ],
+            [
+              -118.6,
+              36.03
+            ],
+            [
+              -118.58,
+              36.12
+            ],
+            [
+              -118.65,
+              36.2
+            ],
+            [
+              -118.78,
+              36.22
+            ],
+            [
+              -118.88,
+              36.2
+            ],
+            [
+              -118.9,
+              36.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torres Martinez PRCDA",
+        "tribeName": "Torres Martinez Desert Cahuilla Indians",
+        "ihsArea": "california",
+        "description": "Torres Martinez reservation, Thermal area, eastern Riverside County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.2,
+              33.58
+            ],
+            [
+              -116.15,
+              33.45
+            ],
+            [
+              -116.02,
+              33.4
+            ],
+            [
+              -115.9,
+              33.43
+            ],
+            [
+              -115.88,
+              33.52
+            ],
+            [
+              -115.95,
+              33.6
+            ],
+            [
+              -116.08,
+              33.62
+            ],
+            [
+              -116.18,
+              33.6
+            ],
+            [
+              -116.2,
+              33.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Morongo PRCDA",
+        "tribeName": "Morongo Band of Mission Indians",
+        "ihsArea": "california",
+        "description": "Morongo reservation, Banning area, Riverside County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.0,
+              33.98
+            ],
+            [
+              -116.95,
+              33.85
+            ],
+            [
+              -116.82,
+              33.8
+            ],
+            [
+              -116.72,
+              33.83
+            ],
+            [
+              -116.7,
+              33.92
+            ],
+            [
+              -116.75,
+              34.0
+            ],
+            [
+              -116.85,
+              34.02
+            ],
+            [
+              -116.95,
+              34.0
+            ],
+            [
+              -117.0,
+              33.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Soboba PRCDA",
+        "tribeName": "Soboba Band of Luiseno Indians",
+        "ihsArea": "california",
+        "description": "Soboba reservation, San Jacinto area, Riverside County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.0,
+              33.88
+            ],
+            [
+              -116.95,
+              33.78
+            ],
+            [
+              -116.85,
+              33.73
+            ],
+            [
+              -116.75,
+              33.76
+            ],
+            [
+              -116.73,
+              33.83
+            ],
+            [
+              -116.78,
+              33.9
+            ],
+            [
+              -116.88,
+              33.92
+            ],
+            [
+              -116.97,
+              33.9
+            ],
+            [
+              -117.0,
+              33.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pechanga PRCDA",
+        "tribeName": "Pechanga Band of Luiseno Indians",
+        "ihsArea": "california",
+        "description": "Pechanga reservation, Temecula area, Riverside County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.18,
+              33.58
+            ],
+            [
+              -117.15,
+              33.45
+            ],
+            [
+              -117.02,
+              33.4
+            ],
+            [
+              -116.92,
+              33.43
+            ],
+            [
+              -116.9,
+              33.5
+            ],
+            [
+              -116.95,
+              33.58
+            ],
+            [
+              -117.05,
+              33.62
+            ],
+            [
+              -117.15,
+              33.6
+            ],
+            [
+              -117.18,
+              33.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Agua Caliente PRCDA",
+        "tribeName": "Agua Caliente Band of Cahuilla Indians",
+        "ihsArea": "california",
+        "description": "Agua Caliente reservation, Palm Springs area, Riverside County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.6,
+              33.88
+            ],
+            [
+              -116.55,
+              33.75
+            ],
+            [
+              -116.42,
+              33.7
+            ],
+            [
+              -116.3,
+              33.73
+            ],
+            [
+              -116.28,
+              33.82
+            ],
+            [
+              -116.33,
+              33.9
+            ],
+            [
+              -116.45,
+              33.93
+            ],
+            [
+              -116.55,
+              33.92
+            ],
+            [
+              -116.6,
+              33.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southern Indian Health Council PRCDA",
+        "tribeName": "Southern Indian Health Council",
+        "ihsArea": "california",
+        "description": "Multi-tribal service area covering Viejas, Barona, Campo, and other reservations in San Diego County backcountry",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.7,
+              32.95
+            ],
+            [
+              -116.65,
+              32.75
+            ],
+            [
+              -116.5,
+              32.62
+            ],
+            [
+              -116.3,
+              32.6
+            ],
+            [
+              -116.15,
+              32.65
+            ],
+            [
+              -116.1,
+              32.78
+            ],
+            [
+              -116.18,
+              32.9
+            ],
+            [
+              -116.3,
+              32.98
+            ],
+            [
+              -116.45,
+              33.02
+            ],
+            [
+              -116.6,
+              33.0
+            ],
+            [
+              -116.7,
+              32.95
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indian Health Council PRCDA",
+        "tribeName": "Indian Health Council Inc.",
+        "ihsArea": "california",
+        "description": "Valley Center, Pauma, Rincon, and surrounding reservations, northern San Diego County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.15,
+              33.4
+            ],
+            [
+              -117.1,
+              33.25
+            ],
+            [
+              -116.95,
+              33.18
+            ],
+            [
+              -116.82,
+              33.2
+            ],
+            [
+              -116.78,
+              33.3
+            ],
+            [
+              -116.85,
+              33.4
+            ],
+            [
+              -116.95,
+              33.45
+            ],
+            [
+              -117.08,
+              33.43
+            ],
+            [
+              -117.15,
+              33.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Toiyabe Indian Health PRCDA",
+        "tribeName": "Toiyabe Indian Health Project",
+        "ihsArea": "california",
+        "description": "Bishop and Owens Valley Paiute-Shoshone communities, Inyo and Mono Counties",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.55,
+              37.55
+            ],
+            [
+              -118.5,
+              37.3
+            ],
+            [
+              -118.38,
+              37.15
+            ],
+            [
+              -118.22,
+              37.1
+            ],
+            [
+              -118.1,
+              37.2
+            ],
+            [
+              -118.08,
+              37.4
+            ],
+            [
+              -118.15,
+              37.55
+            ],
+            [
+              -118.28,
+              37.62
+            ],
+            [
+              -118.42,
+              37.6
+            ],
+            [
+              -118.55,
+              37.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santa Ynez PRCDA",
+        "tribeName": "Santa Ynez Band of Chumash Mission Indians",
+        "ihsArea": "california",
+        "description": "Santa Ynez reservation, Santa Barbara County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.9,
+              34.68
+            ],
+            [
+              -119.85,
+              34.55
+            ],
+            [
+              -119.72,
+              34.5
+            ],
+            [
+              -119.6,
+              34.53
+            ],
+            [
+              -119.58,
+              34.62
+            ],
+            [
+              -119.63,
+              34.7
+            ],
+            [
+              -119.75,
+              34.73
+            ],
+            [
+              -119.85,
+              34.72
+            ],
+            [
+              -119.9,
+              34.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lumbee PRCDA",
+        "tribeName": "Lumbee Tribe of North Carolina",
+        "ihsArea": "nashville",
+        "description": "Largest eastern tribe, centered in Pembroke, Robeson County NC",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.4,
+              34.85
+            ],
+            [
+              -79.35,
+              34.65
+            ],
+            [
+              -79.18,
+              34.55
+            ],
+            [
+              -78.98,
+              34.52
+            ],
+            [
+              -78.85,
+              34.6
+            ],
+            [
+              -78.82,
+              34.72
+            ],
+            [
+              -78.9,
+              34.85
+            ],
+            [
+              -79.05,
+              34.92
+            ],
+            [
+              -79.2,
+              34.9
+            ],
+            [
+              -79.35,
+              34.88
+            ],
+            [
+              -79.4,
+              34.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Catawba PRCDA",
+        "tribeName": "Catawba Indian Nation",
+        "ihsArea": "nashville",
+        "description": "Catawba reservation and service area, Rock Hill, York County SC",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.1,
+              35.0
+            ],
+            [
+              -81.08,
+              34.85
+            ],
+            [
+              -80.95,
+              34.78
+            ],
+            [
+              -80.82,
+              34.8
+            ],
+            [
+              -80.78,
+              34.9
+            ],
+            [
+              -80.85,
+              35.0
+            ],
+            [
+              -80.95,
+              35.05
+            ],
+            [
+              -81.05,
+              35.03
+            ],
+            [
+              -81.1,
+              35.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Penobscot PRCDA",
+        "tribeName": "Penobscot Indian Nation",
+        "ihsArea": "nashville",
+        "description": "Indian Island and surrounding service area, Old Town, Penobscot County ME",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.8,
+              45.0
+            ],
+            [
+              -68.75,
+              44.82
+            ],
+            [
+              -68.62,
+              44.75
+            ],
+            [
+              -68.48,
+              44.78
+            ],
+            [
+              -68.45,
+              44.88
+            ],
+            [
+              -68.5,
+              44.98
+            ],
+            [
+              -68.62,
+              45.05
+            ],
+            [
+              -68.75,
+              45.05
+            ],
+            [
+              -68.8,
+              45.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Passamaquoddy PRCDA",
+        "tribeName": "Passamaquoddy Tribe",
+        "ihsArea": "nashville",
+        "description": "Pleasant Point and Indian Township communities, Washington County ME",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -67.25,
+              45.15
+            ],
+            [
+              -67.18,
+              44.95
+            ],
+            [
+              -67.0,
+              44.85
+            ],
+            [
+              -66.82,
+              44.88
+            ],
+            [
+              -66.78,
+              45.0
+            ],
+            [
+              -66.85,
+              45.12
+            ],
+            [
+              -67.0,
+              45.18
+            ],
+            [
+              -67.15,
+              45.18
+            ],
+            [
+              -67.25,
+              45.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seneca Nation PRCDA",
+        "tribeName": "Seneca Nation of Indians",
+        "ihsArea": "nashville",
+        "description": "Allegany and Cattaraugus territories, SW New York State",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0,
+              42.25
+            ],
+            [
+              -78.95,
+              42.08
+            ],
+            [
+              -78.8,
+              41.98
+            ],
+            [
+              -78.6,
+              41.95
+            ],
+            [
+              -78.45,
+              42.0
+            ],
+            [
+              -78.4,
+              42.12
+            ],
+            [
+              -78.5,
+              42.22
+            ],
+            [
+              -78.65,
+              42.28
+            ],
+            [
+              -78.8,
+              42.28
+            ],
+            [
+              -78.95,
+              42.28
+            ],
+            [
+              -79.0,
+              42.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Regis Mohawk (Akwesasne) PRCDA",
+        "tribeName": "St. Regis Mohawk Tribe",
+        "ihsArea": "nashville",
+        "description": "Akwesasne territory at US-Canada border, Franklin County NY",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.8,
+              45.0
+            ],
+            [
+              -74.75,
+              44.85
+            ],
+            [
+              -74.62,
+              44.78
+            ],
+            [
+              -74.48,
+              44.8
+            ],
+            [
+              -74.42,
+              44.88
+            ],
+            [
+              -74.48,
+              44.98
+            ],
+            [
+              -74.6,
+              45.05
+            ],
+            [
+              -74.72,
+              45.03
+            ],
+            [
+              -74.8,
+              45.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oneida Indian Nation PRCDA",
+        "tribeName": "Oneida Indian Nation",
+        "ihsArea": "nashville",
+        "description": "Oneida homeland and service area, Verona/Oneida, Madison County NY",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.72,
+              43.18
+            ],
+            [
+              -75.68,
+              43.05
+            ],
+            [
+              -75.55,
+              42.98
+            ],
+            [
+              -75.42,
+              43.0
+            ],
+            [
+              -75.38,
+              43.1
+            ],
+            [
+              -75.45,
+              43.18
+            ],
+            [
+              -75.55,
+              43.22
+            ],
+            [
+              -75.65,
+              43.2
+            ],
+            [
+              -75.72,
+              43.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shinnecock PRCDA",
+        "tribeName": "Shinnecock Indian Nation",
+        "ihsArea": "nashville",
+        "description": "Shinnecock reservation, Southampton, Long Island NY",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.55,
+              40.93
+            ],
+            [
+              -72.52,
+              40.86
+            ],
+            [
+              -72.45,
+              40.83
+            ],
+            [
+              -72.38,
+              40.85
+            ],
+            [
+              -72.35,
+              40.9
+            ],
+            [
+              -72.4,
+              40.95
+            ],
+            [
+              -72.48,
+              40.97
+            ],
+            [
+              -72.53,
+              40.95
+            ],
+            [
+              -72.55,
+              40.93
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alabama-Coushatta PRCDA",
+        "tribeName": "Alabama-Coushatta Tribe of Texas",
+        "ihsArea": "nashville",
+        "description": "Alabama-Coushatta reservation, Livingston, Polk County TX",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.0,
+              30.8
+            ],
+            [
+              -94.98,
+              30.65
+            ],
+            [
+              -94.85,
+              30.58
+            ],
+            [
+              -94.72,
+              30.6
+            ],
+            [
+              -94.68,
+              30.7
+            ],
+            [
+              -94.75,
+              30.8
+            ],
+            [
+              -94.85,
+              30.85
+            ],
+            [
+              -94.95,
+              30.83
+            ],
+            [
+              -95.0,
+              30.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kickapoo Traditional PRCDA",
+        "tribeName": "Kickapoo Traditional Tribe of Texas",
+        "ihsArea": "nashville",
+        "description": "Kickapoo Traditional reservation, Eagle Pass, Maverick County TX near Mexico border",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.58,
+              28.78
+            ],
+            [
+              -100.55,
+              28.65
+            ],
+            [
+              -100.42,
+              28.58
+            ],
+            [
+              -100.3,
+              28.6
+            ],
+            [
+              -100.28,
+              28.7
+            ],
+            [
+              -100.35,
+              28.78
+            ],
+            [
+              -100.45,
+              28.82
+            ],
+            [
+              -100.55,
+              28.8
+            ],
+            [
+              -100.58,
+              28.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chitimacha PRCDA",
+        "tribeName": "Chitimacha Tribe of Louisiana",
+        "ihsArea": "nashville",
+        "description": "Chitimacha reservation, Charenton, St. Mary Parish LA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.58,
+              29.98
+            ],
+            [
+              -91.55,
+              29.85
+            ],
+            [
+              -91.42,
+              29.8
+            ],
+            [
+              -91.3,
+              29.82
+            ],
+            [
+              -91.28,
+              29.9
+            ],
+            [
+              -91.35,
+              29.98
+            ],
+            [
+              -91.45,
+              30.02
+            ],
+            [
+              -91.55,
+              30.0
+            ],
+            [
+              -91.58,
+              29.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coushatta PRCDA",
+        "tribeName": "Coushatta Tribe of Louisiana",
+        "ihsArea": "nashville",
+        "description": "Coushatta reservation, Elton, Allen Parish LA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -92.8,
+              30.58
+            ],
+            [
+              -92.78,
+              30.45
+            ],
+            [
+              -92.65,
+              30.4
+            ],
+            [
+              -92.52,
+              30.42
+            ],
+            [
+              -92.5,
+              30.5
+            ],
+            [
+              -92.55,
+              30.58
+            ],
+            [
+              -92.65,
+              30.62
+            ],
+            [
+              -92.75,
+              30.6
+            ],
+            [
+              -92.8,
+              30.58
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tunica-Biloxi PRCDA",
+        "tribeName": "Tunica-Biloxi Tribe of Louisiana",
+        "ihsArea": "nashville",
+        "description": "Tunica-Biloxi reservation, Marksville, Avoyelles Parish LA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -92.2,
+              31.18
+            ],
+            [
+              -92.18,
+              31.05
+            ],
+            [
+              -92.05,
+              31.0
+            ],
+            [
+              -91.92,
+              31.02
+            ],
+            [
+              -91.9,
+              31.1
+            ],
+            [
+              -91.95,
+              31.18
+            ],
+            [
+              -92.05,
+              31.22
+            ],
+            [
+              -92.15,
+              31.2
+            ],
+            [
+              -92.2,
+              31.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seminole Tribe Big Cypress PRCDA",
+        "tribeName": "Seminole Tribe of Florida (Big Cypress)",
+        "ihsArea": "nashville",
+        "description": "Big Cypress reservation, Hendry County FL, separate from Hollywood reservation",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.1,
+              26.18
+            ],
+            [
+              -81.08,
+              26.02
+            ],
+            [
+              -80.95,
+              25.95
+            ],
+            [
+              -80.8,
+              25.98
+            ],
+            [
+              -80.75,
+              26.08
+            ],
+            [
+              -80.82,
+              26.18
+            ],
+            [
+              -80.92,
+              26.22
+            ],
+            [
+              -81.05,
+              26.2
+            ],
+            [
+              -81.1,
+              26.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miccosukee PRCDA",
+        "tribeName": "Miccosukee Tribe of Indians of Florida",
+        "ihsArea": "nashville",
+        "description": "Miccosukee reservation and Everglades service area, Dade County FL",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.9,
+              25.88
+            ],
+            [
+              -80.88,
+              25.72
+            ],
+            [
+              -80.75,
+              25.65
+            ],
+            [
+              -80.6,
+              25.68
+            ],
+            [
+              -80.55,
+              25.78
+            ],
+            [
+              -80.62,
+              25.88
+            ],
+            [
+              -80.75,
+              25.92
+            ],
+            [
+              -80.85,
+              25.9
+            ],
+            [
+              -80.9,
+              25.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mohegan PRCDA",
+        "tribeName": "Mohegan Tribe of Indians of Connecticut",
+        "ihsArea": "nashville",
+        "description": "Mohegan reservation, Uncasville/Montville, New London County CT",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.15,
+              41.55
+            ],
+            [
+              -72.12,
+              41.45
+            ],
+            [
+              -72.02,
+              41.4
+            ],
+            [
+              -71.92,
+              41.42
+            ],
+            [
+              -71.9,
+              41.5
+            ],
+            [
+              -71.95,
+              41.55
+            ],
+            [
+              -72.05,
+              41.58
+            ],
+            [
+              -72.12,
+              41.57
+            ],
+            [
+              -72.15,
+              41.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mashantucket Pequot PRCDA",
+        "tribeName": "Mashantucket Pequot Tribal Nation",
+        "ihsArea": "nashville",
+        "description": "Mashantucket Pequot reservation, Ledyard, New London County CT",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.05,
+              41.52
+            ],
+            [
+              -72.02,
+              41.45
+            ],
+            [
+              -71.95,
+              41.42
+            ],
+            [
+              -71.85,
+              41.44
+            ],
+            [
+              -71.82,
+              41.5
+            ],
+            [
+              -71.88,
+              41.55
+            ],
+            [
+              -71.95,
+              41.57
+            ],
+            [
+              -72.02,
+              41.55
+            ],
+            [
+              -72.05,
+              41.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prairie Island PRCDA",
+        "tribeName": "Prairie Island Indian Community",
+        "ihsArea": "bemidji",
+        "description": "Prairie Island reservation, Welch, Goodhue County MN",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -92.68,
+              44.65
+            ],
+            [
+              -92.65,
+              44.55
+            ],
+            [
+              -92.55,
+              44.5
+            ],
+            [
+              -92.42,
+              44.52
+            ],
+            [
+              -92.4,
+              44.6
+            ],
+            [
+              -92.45,
+              44.68
+            ],
+            [
+              -92.55,
+              44.7
+            ],
+            [
+              -92.65,
+              44.68
+            ],
+            [
+              -92.68,
+              44.65
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shakopee Mdewakanton PRCDA",
+        "tribeName": "Shakopee Mdewakanton Sioux Community",
+        "ihsArea": "bemidji",
+        "description": "Shakopee Mdewakanton reservation, Prior Lake, Scott County MN",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.55,
+              44.78
+            ],
+            [
+              -93.52,
+              44.68
+            ],
+            [
+              -93.42,
+              44.63
+            ],
+            [
+              -93.32,
+              44.65
+            ],
+            [
+              -93.3,
+              44.72
+            ],
+            [
+              -93.35,
+              44.78
+            ],
+            [
+              -93.42,
+              44.82
+            ],
+            [
+              -93.52,
+              44.8
+            ],
+            [
+              -93.55,
+              44.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lower Sioux PRCDA",
+        "tribeName": "Lower Sioux Indian Community",
+        "ihsArea": "bemidji",
+        "description": "Lower Sioux reservation, Morton, Renville County MN",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.08,
+              44.55
+            ],
+            [
+              -95.05,
+              44.45
+            ],
+            [
+              -94.95,
+              44.4
+            ],
+            [
+              -94.82,
+              44.42
+            ],
+            [
+              -94.8,
+              44.5
+            ],
+            [
+              -94.85,
+              44.58
+            ],
+            [
+              -94.95,
+              44.6
+            ],
+            [
+              -95.05,
+              44.58
+            ],
+            [
+              -95.08,
+              44.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upper Sioux PRCDA",
+        "tribeName": "Upper Sioux Community",
+        "ihsArea": "bemidji",
+        "description": "Upper Sioux reservation, Granite Falls, Yellow Medicine County MN",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.58,
+              44.78
+            ],
+            [
+              -95.55,
+              44.65
+            ],
+            [
+              -95.42,
+              44.6
+            ],
+            [
+              -95.3,
+              44.62
+            ],
+            [
+              -95.28,
+              44.7
+            ],
+            [
+              -95.35,
+              44.78
+            ],
+            [
+              -95.42,
+              44.82
+            ],
+            [
+              -95.55,
+              44.8
+            ],
+            [
+              -95.58,
+              44.78
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Portage PRCDA",
+        "tribeName": "Grand Portage Band of Lake Superior Chippewa",
+        "ihsArea": "bemidji",
+        "description": "Grand Portage reservation, NE tip of Minnesota, Cook County",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.8,
+              48.0
+            ],
+            [
+              -89.75,
+              47.85
+            ],
+            [
+              -89.6,
+              47.78
+            ],
+            [
+              -89.45,
+              47.8
+            ],
+            [
+              -89.4,
+              47.9
+            ],
+            [
+              -89.5,
+              48.0
+            ],
+            [
+              -89.6,
+              48.05
+            ],
+            [
+              -89.72,
+              48.03
+            ],
+            [
+              -89.8,
+              48.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bois Forte PRCDA",
+        "tribeName": "Bois Forte Band of Chippewa",
+        "ihsArea": "bemidji",
+        "description": "Nett Lake and Vermilion reservations, St. Louis/Koochiching Counties MN",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.2,
+              48.2
+            ],
+            [
+              -93.15,
+              48.02
+            ],
+            [
+              -93.0,
+              47.95
+            ],
+            [
+              -92.82,
+              47.98
+            ],
+            [
+              -92.78,
+              48.08
+            ],
+            [
+              -92.85,
+              48.18
+            ],
+            [
+              -92.98,
+              48.25
+            ],
+            [
+              -93.12,
+              48.23
+            ],
+            [
+              -93.2,
+              48.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ho-Chunk Nation PRCDA",
+        "tribeName": "Ho-Chunk Nation",
+        "ihsArea": "bemidji",
+        "description": "Ho-Chunk Nation scattered lands centered on Black River Falls, Jackson County WI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.9,
+              44.4
+            ],
+            [
+              -90.85,
+              44.22
+            ],
+            [
+              -90.7,
+              44.15
+            ],
+            [
+              -90.52,
+              44.18
+            ],
+            [
+              -90.48,
+              44.28
+            ],
+            [
+              -90.55,
+              44.38
+            ],
+            [
+              -90.68,
+              44.45
+            ],
+            [
+              -90.82,
+              44.43
+            ],
+            [
+              -90.9,
+              44.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bad River PRCDA",
+        "tribeName": "Bad River Band of Lake Superior Chippewa",
+        "ihsArea": "bemidji",
+        "description": "Bad River reservation, Odanah, Ashland County WI on Lake Superior",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.8,
+              46.7
+            ],
+            [
+              -90.75,
+              46.55
+            ],
+            [
+              -90.6,
+              46.48
+            ],
+            [
+              -90.45,
+              46.5
+            ],
+            [
+              -90.4,
+              46.6
+            ],
+            [
+              -90.48,
+              46.7
+            ],
+            [
+              -90.6,
+              46.75
+            ],
+            [
+              -90.72,
+              46.73
+            ],
+            [
+              -90.8,
+              46.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lac Courte Oreilles PRCDA",
+        "tribeName": "Lac Courte Oreilles Band of Lake Superior Chippewa",
+        "ihsArea": "bemidji",
+        "description": "Lac Courte Oreilles reservation, Hayward area, Sawyer County WI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.6,
+              46.1
+            ],
+            [
+              -91.55,
+              45.95
+            ],
+            [
+              -91.42,
+              45.88
+            ],
+            [
+              -91.28,
+              45.9
+            ],
+            [
+              -91.25,
+              46.0
+            ],
+            [
+              -91.3,
+              46.1
+            ],
+            [
+              -91.42,
+              46.15
+            ],
+            [
+              -91.55,
+              46.12
+            ],
+            [
+              -91.6,
+              46.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lac du Flambeau PRCDA",
+        "tribeName": "Lac du Flambeau Band of Lake Superior Chippewa",
+        "ihsArea": "bemidji",
+        "description": "Lac du Flambeau reservation, Vilas County WI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.0,
+              46.1
+            ],
+            [
+              -89.95,
+              45.95
+            ],
+            [
+              -89.82,
+              45.88
+            ],
+            [
+              -89.68,
+              45.9
+            ],
+            [
+              -89.65,
+              46.0
+            ],
+            [
+              -89.72,
+              46.08
+            ],
+            [
+              -89.82,
+              46.12
+            ],
+            [
+              -89.95,
+              46.12
+            ],
+            [
+              -90.0,
+              46.1
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Red Cliff PRCDA",
+        "tribeName": "Red Cliff Band of Lake Superior Chippewa",
+        "ihsArea": "bemidji",
+        "description": "Red Cliff reservation on Bayfield Peninsula, Bayfield County WI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.88,
+              46.88
+            ],
+            [
+              -90.85,
+              46.75
+            ],
+            [
+              -90.72,
+              46.7
+            ],
+            [
+              -90.58,
+              46.72
+            ],
+            [
+              -90.55,
+              46.8
+            ],
+            [
+              -90.62,
+              46.88
+            ],
+            [
+              -90.72,
+              46.92
+            ],
+            [
+              -90.82,
+              46.9
+            ],
+            [
+              -90.88,
+              46.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "St. Croix PRCDA",
+        "tribeName": "St. Croix Chippewa Indians of Wisconsin",
+        "ihsArea": "bemidji",
+        "description": "St. Croix scattered communities, Webster/Hertel area, Burnett County WI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -92.48,
+              45.98
+            ],
+            [
+              -92.45,
+              45.85
+            ],
+            [
+              -92.32,
+              45.78
+            ],
+            [
+              -92.18,
+              45.8
+            ],
+            [
+              -92.15,
+              45.9
+            ],
+            [
+              -92.22,
+              45.98
+            ],
+            [
+              -92.32,
+              46.02
+            ],
+            [
+              -92.42,
+              46.0
+            ],
+            [
+              -92.48,
+              45.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stockbridge-Munsee PRCDA",
+        "tribeName": "Stockbridge-Munsee Community",
+        "ihsArea": "bemidji",
+        "description": "Stockbridge-Munsee reservation, Bowler, Shawano County WI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.88,
+              44.98
+            ],
+            [
+              -88.85,
+              44.85
+            ],
+            [
+              -88.72,
+              44.8
+            ],
+            [
+              -88.6,
+              44.82
+            ],
+            [
+              -88.58,
+              44.9
+            ],
+            [
+              -88.62,
+              44.98
+            ],
+            [
+              -88.72,
+              45.02
+            ],
+            [
+              -88.82,
+              45.0
+            ],
+            [
+              -88.88,
+              44.98
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Potawatomi (Forest County) PRCDA",
+        "tribeName": "Forest County Potawatomi Community",
+        "ihsArea": "bemidji",
+        "description": "Forest County Potawatomi reservation, Crandon, Forest County WI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.98,
+              45.68
+            ],
+            [
+              -88.95,
+              45.55
+            ],
+            [
+              -88.82,
+              45.48
+            ],
+            [
+              -88.68,
+              45.5
+            ],
+            [
+              -88.65,
+              45.6
+            ],
+            [
+              -88.72,
+              45.68
+            ],
+            [
+              -88.82,
+              45.72
+            ],
+            [
+              -88.92,
+              45.7
+            ],
+            [
+              -88.98,
+              45.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sault Ste. Marie Chippewa PRCDA",
+        "tribeName": "Sault Ste. Marie Tribe of Chippewa Indians",
+        "ihsArea": "bemidji",
+        "description": "Large multi-county service area across eastern Upper Peninsula, Michigan",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.4,
+              46.6
+            ],
+            [
+              -84.35,
+              46.4
+            ],
+            [
+              -84.15,
+              46.28
+            ],
+            [
+              -83.9,
+              46.22
+            ],
+            [
+              -83.7,
+              46.28
+            ],
+            [
+              -83.65,
+              46.42
+            ],
+            [
+              -83.75,
+              46.55
+            ],
+            [
+              -83.9,
+              46.62
+            ],
+            [
+              -84.08,
+              46.65
+            ],
+            [
+              -84.25,
+              46.65
+            ],
+            [
+              -84.4,
+              46.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bay Mills PRCDA",
+        "tribeName": "Bay Mills Indian Community",
+        "ihsArea": "bemidji",
+        "description": "Bay Mills reservation, Brimley, Chippewa County MI on Lake Superior",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.68,
+              46.48
+            ],
+            [
+              -84.65,
+              46.35
+            ],
+            [
+              -84.52,
+              46.28
+            ],
+            [
+              -84.38,
+              46.3
+            ],
+            [
+              -84.35,
+              46.4
+            ],
+            [
+              -84.42,
+              46.48
+            ],
+            [
+              -84.52,
+              46.52
+            ],
+            [
+              -84.62,
+              46.5
+            ],
+            [
+              -84.68,
+              46.48
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Keweenaw Bay PRCDA",
+        "tribeName": "Keweenaw Bay Indian Community",
+        "ihsArea": "bemidji",
+        "description": "L'Anse reservation, Baraga County MI on Keweenaw Bay",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.5,
+              46.88
+            ],
+            [
+              -88.45,
+              46.72
+            ],
+            [
+              -88.32,
+              46.65
+            ],
+            [
+              -88.18,
+              46.68
+            ],
+            [
+              -88.15,
+              46.78
+            ],
+            [
+              -88.22,
+              46.88
+            ],
+            [
+              -88.32,
+              46.92
+            ],
+            [
+              -88.45,
+              46.9
+            ],
+            [
+              -88.5,
+              46.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saginaw Chippewa PRCDA",
+        "tribeName": "Saginaw Chippewa Indian Tribe",
+        "ihsArea": "bemidji",
+        "description": "Isabella reservation, Mt. Pleasant, Isabella County MI",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.88,
+              43.68
+            ],
+            [
+              -84.85,
+              43.55
+            ],
+            [
+              -84.72,
+              43.48
+            ],
+            [
+              -84.58,
+              43.5
+            ],
+            [
+              -84.55,
+              43.6
+            ],
+            [
+              -84.62,
+              43.68
+            ],
+            [
+              -84.72,
+              43.72
+            ],
+            [
+              -84.82,
+              43.7
+            ],
+            [
+              -84.88,
+              43.68
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Comanche Nation PRCDA",
+        "tribeName": "Comanche Nation",
+        "ihsArea": "oklahoma_city",
+        "description": "Comanche tribal jurisdiction, SW Oklahoma including Comanche, Cotton, and Tillman Counties",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.6,
+              34.6
+            ],
+            [
+              -98.55,
+              34.35
+            ],
+            [
+              -98.4,
+              34.2
+            ],
+            [
+              -98.15,
+              34.15
+            ],
+            [
+              -97.95,
+              34.22
+            ],
+            [
+              -97.9,
+              34.4
+            ],
+            [
+              -98.0,
+              34.55
+            ],
+            [
+              -98.18,
+              34.62
+            ],
+            [
+              -98.35,
+              34.65
+            ],
+            [
+              -98.5,
+              34.62
+            ],
+            [
+              -98.6,
+              34.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiowa/Wichita/Apache PRCDA",
+        "tribeName": "Kiowa, Wichita and Affiliated Tribes, Apache Tribe",
+        "ihsArea": "oklahoma_city",
+        "description": "Shared tribal jurisdiction in SW Oklahoma, Caddo and Grady Counties",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -98.65,
+              35.15
+            ],
+            [
+              -98.6,
+              34.92
+            ],
+            [
+              -98.45,
+              34.82
+            ],
+            [
+              -98.25,
+              34.8
+            ],
+            [
+              -98.1,
+              34.88
+            ],
+            [
+              -98.05,
+              35.02
+            ],
+            [
+              -98.15,
+              35.12
+            ],
+            [
+              -98.3,
+              35.18
+            ],
+            [
+              -98.48,
+              35.18
+            ],
+            [
+              -98.65,
+              35.15
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ponca Tribe PRCDA",
+        "tribeName": "Ponca Tribe of Indians of Oklahoma",
+        "ihsArea": "oklahoma_city",
+        "description": "Ponca tribal jurisdiction, Kay and Noble Counties, north-central Oklahoma",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.2,
+              36.8
+            ],
+            [
+              -97.15,
+              36.62
+            ],
+            [
+              -97.02,
+              36.55
+            ],
+            [
+              -96.85,
+              36.58
+            ],
+            [
+              -96.8,
+              36.68
+            ],
+            [
+              -96.88,
+              36.78
+            ],
+            [
+              -97.0,
+              36.85
+            ],
+            [
+              -97.12,
+              36.83
+            ],
+            [
+              -97.2,
+              36.8
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Citizen Potawatomi PRCDA",
+        "tribeName": "Citizen Potawatomi Nation",
+        "ihsArea": "oklahoma_city",
+        "description": "Citizen Potawatomi tribal jurisdiction, Pottawatomie County OK",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.1,
+              35.4
+            ],
+            [
+              -97.05,
+              35.22
+            ],
+            [
+              -96.92,
+              35.15
+            ],
+            [
+              -96.78,
+              35.18
+            ],
+            [
+              -96.72,
+              35.28
+            ],
+            [
+              -96.78,
+              35.38
+            ],
+            [
+              -96.9,
+              35.45
+            ],
+            [
+              -97.02,
+              35.42
+            ],
+            [
+              -97.1,
+              35.4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Absentee Shawnee PRCDA",
+        "tribeName": "Absentee Shawnee Tribe of Indians of Oklahoma",
+        "ihsArea": "oklahoma_city",
+        "description": "Absentee Shawnee tribal jurisdiction, Pottawatomie and Cleveland Counties OK",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.08,
+              35.28
+            ],
+            [
+              -97.05,
+              35.12
+            ],
+            [
+              -96.92,
+              35.05
+            ],
+            [
+              -96.78,
+              35.08
+            ],
+            [
+              -96.72,
+              35.18
+            ],
+            [
+              -96.8,
+              35.28
+            ],
+            [
+              -96.9,
+              35.32
+            ],
+            [
+              -97.02,
+              35.3
+            ],
+            [
+              -97.08,
+              35.28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Muckleshoot PRCDA",
+        "tribeName": "Muckleshoot Indian Tribe",
+        "ihsArea": "portland",
+        "description": "Muckleshoot reservation, Auburn, SE King County WA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.28,
+              47.35
+            ],
+            [
+              -122.25,
+              47.25
+            ],
+            [
+              -122.15,
+              47.2
+            ],
+            [
+              -122.02,
+              47.22
+            ],
+            [
+              -122.0,
+              47.3
+            ],
+            [
+              -122.05,
+              47.38
+            ],
+            [
+              -122.15,
+              47.4
+            ],
+            [
+              -122.25,
+              47.38
+            ],
+            [
+              -122.28,
+              47.35
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Puyallup PRCDA",
+        "tribeName": "Puyallup Tribe of Indians",
+        "ihsArea": "portland",
+        "description": "Puyallup reservation, Tacoma metropolitan area, Pierce County WA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.48,
+              47.28
+            ],
+            [
+              -122.45,
+              47.15
+            ],
+            [
+              -122.35,
+              47.1
+            ],
+            [
+              -122.22,
+              47.12
+            ],
+            [
+              -122.18,
+              47.22
+            ],
+            [
+              -122.25,
+              47.3
+            ],
+            [
+              -122.35,
+              47.32
+            ],
+            [
+              -122.45,
+              47.3
+            ],
+            [
+              -122.48,
+              47.28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Swinomish PRCDA",
+        "tribeName": "Swinomish Indian Tribal Community",
+        "ihsArea": "portland",
+        "description": "Swinomish reservation, La Conner, Skagit County WA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.58,
+              48.55
+            ],
+            [
+              -122.55,
+              48.45
+            ],
+            [
+              -122.42,
+              48.4
+            ],
+            [
+              -122.3,
+              48.42
+            ],
+            [
+              -122.28,
+              48.5
+            ],
+            [
+              -122.35,
+              48.58
+            ],
+            [
+              -122.45,
+              48.6
+            ],
+            [
+              -122.55,
+              48.58
+            ],
+            [
+              -122.58,
+              48.55
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Squaxin Island PRCDA",
+        "tribeName": "Squaxin Island Tribe",
+        "ihsArea": "portland",
+        "description": "Squaxin Island reservation, Shelton area, Mason County WA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.18,
+              47.28
+            ],
+            [
+              -123.15,
+              47.15
+            ],
+            [
+              -123.02,
+              47.1
+            ],
+            [
+              -122.9,
+              47.12
+            ],
+            [
+              -122.88,
+              47.2
+            ],
+            [
+              -122.92,
+              47.28
+            ],
+            [
+              -123.02,
+              47.32
+            ],
+            [
+              -123.12,
+              47.3
+            ],
+            [
+              -123.18,
+              47.28
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quinault PRCDA",
+        "tribeName": "Quinault Indian Nation",
+        "ihsArea": "portland",
+        "description": "Large Quinault reservation on Pacific coast, Grays Harbor County WA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.4,
+              47.45
+            ],
+            [
+              -124.38,
+              47.25
+            ],
+            [
+              -124.25,
+              47.15
+            ],
+            [
+              -124.05,
+              47.12
+            ],
+            [
+              -123.9,
+              47.18
+            ],
+            [
+              -123.85,
+              47.3
+            ],
+            [
+              -123.92,
+              47.42
+            ],
+            [
+              -124.08,
+              47.48
+            ],
+            [
+              -124.22,
+              47.5
+            ],
+            [
+              -124.35,
+              47.48
+            ],
+            [
+              -124.4,
+              47.45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spokane Tribe PRCDA",
+        "tribeName": "Spokane Tribe of Indians",
+        "ihsArea": "portland",
+        "description": "Spokane reservation, Wellpinit, Stevens County WA",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.0,
+              48.0
+            ],
+            [
+              -117.95,
+              47.82
+            ],
+            [
+              -117.8,
+              47.75
+            ],
+            [
+              -117.62,
+              47.78
+            ],
+            [
+              -117.55,
+              47.88
+            ],
+            [
+              -117.62,
+              48.0
+            ],
+            [
+              -117.75,
+              48.05
+            ],
+            [
+              -117.9,
+              48.03
+            ],
+            [
+              -118.0,
+              48.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Ronde PRCDA",
+        "tribeName": "Confederated Tribes of Grand Ronde",
+        "ihsArea": "portland",
+        "description": "Grand Ronde reservation and service area, Polk County OR",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.7,
+              45.18
+            ],
+            [
+              -123.65,
+              45.05
+            ],
+            [
+              -123.52,
+              44.98
+            ],
+            [
+              -123.38,
+              45.0
+            ],
+            [
+              -123.35,
+              45.1
+            ],
+            [
+              -123.42,
+              45.18
+            ],
+            [
+              -123.52,
+              45.22
+            ],
+            [
+              -123.65,
+              45.2
+            ],
+            [
+              -123.7,
+              45.18
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Siletz PRCDA",
+        "tribeName": "Confederated Tribes of Siletz Indians",
+        "ihsArea": "portland",
+        "description": "Siletz reservation and 11-county service area, Lincoln County OR coast",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.1,
+              44.82
+            ],
+            [
+              -124.08,
+              44.6
+            ],
+            [
+              -123.95,
+              44.48
+            ],
+            [
+              -123.75,
+              44.45
+            ],
+            [
+              -123.6,
+              44.52
+            ],
+            [
+              -123.55,
+              44.65
+            ],
+            [
+              -123.62,
+              44.78
+            ],
+            [
+              -123.78,
+              44.85
+            ],
+            [
+              -123.92,
+              44.88
+            ],
+            [
+              -124.05,
+              44.85
+            ],
+            [
+              -124.1,
+              44.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klamath Tribes PRCDA",
+        "tribeName": "Klamath Tribes",
+        "ihsArea": "portland",
+        "description": "Klamath tribal service area, Chiloquin, Klamath County OR",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.9,
+              42.72
+            ],
+            [
+              -121.85,
+              42.52
+            ],
+            [
+              -121.7,
+              42.42
+            ],
+            [
+              -121.5,
+              42.4
+            ],
+            [
+              -121.38,
+              42.48
+            ],
+            [
+              -121.35,
+              42.6
+            ],
+            [
+              -121.42,
+              42.72
+            ],
+            [
+              -121.58,
+              42.78
+            ],
+            [
+              -121.75,
+              42.78
+            ],
+            [
+              -121.9,
+              42.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burns Paiute PRCDA",
+        "tribeName": "Burns Paiute Tribe",
+        "ihsArea": "portland",
+        "description": "Burns Paiute reservation and service area, Burns, Harney County OR",
+        "fillColor": "#014b50",
+        "strokeColor": "#b75527"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -119.2,
+              43.68
+            ],
+            [
+              -119.15,
+              43.52
+            ],
+            [
+              -119.0,
+              43.45
+            ],
+            [
+              -118.82,
+              43.48
+            ],
+            [
+              -118.78,
+              43.58
+            ],
+            [
+              -118.85,
+              43.68
+            ],
+            [
+              -118.98,
+              43.75
+            ],
+            [
+              -119.12,
+              43.72
+            ],
+            [
+              -119.2,
+              43.68
+            ]
+          ]
+        ]
+      }
     }
   ]
 }
