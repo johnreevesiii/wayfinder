@@ -103,18 +103,29 @@ export default function FacilityCard({ facility, isSelected, onClick, onViewDeta
       )}
 
       {/* Footer row */}
-      <div className="flex items-center justify-between pt-2 border-t border-iha-sand">
+      <div className="flex items-center justify-between pt-2 border-t border-iha-sand gap-2">
         <div className="flex items-center gap-2">
           <span className={`inline-block w-2 h-2 rounded-full ${patientStatus.color}`} />
           <span className="text-xs text-iha-blue/70">{patientStatus.label}</span>
         </div>
-        <button
-          onClick={(e) => { e.stopPropagation(); onViewDetails(facility.id); }}
-          className="flex items-center gap-1 text-sm font-semibold text-iha-orange hover:text-iha-umber transition-colors"
-          aria-label={`View details for ${facility.name}`}
-        >
-          Details <ChevronRight size={16} />
-        </button>
+        <div className="flex items-center gap-2">
+          {/* Call button: prominent on mobile */}
+          <a
+            href={`tel:${facility.phone.replace(/[^0-9+]/g, '')}`}
+            className="sm:hidden flex items-center gap-1 px-3 py-1.5 bg-iha-teal text-white text-xs font-semibold iha-card-sm no-underline"
+            onClick={(e) => e.stopPropagation()}
+            aria-label={`Call ${facility.name}`}
+          >
+            <Phone size={12} /> Call
+          </a>
+          <button
+            onClick={(e) => { e.stopPropagation(); onViewDetails(facility.id); }}
+            className="flex items-center gap-1 text-sm font-semibold text-iha-orange hover:text-iha-umber transition-colors"
+            aria-label={`View details for ${facility.name}`}
+          >
+            Details <ChevronRight size={16} />
+          </button>
+        </div>
       </div>
     </article>
   );

@@ -110,6 +110,10 @@ p {
   border-radius: 4px;
 }
 
+/* Hide scrollbar for horizontal chip scroll on mobile */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Touch targets */
 @media (pointer: coarse) {
   button, a, [role="button"] {

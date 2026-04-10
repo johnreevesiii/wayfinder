@@ -34,8 +34,8 @@ export default function SearchBar({ query, onQueryChange, onSubmit, onUseLocatio
           onChange={(e) => onQueryChange(e.target.value)}
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
-          placeholder='Try "dental near Shiprock" or "behavioral health Minneapolis"'
-          className="flex-1 py-4 px-2 text-base text-iha-blue placeholder:text-iha-blue/40 bg-transparent outline-none font-body"
+          placeholder='Try "dental near Shiprock"'
+          className="flex-1 py-4 px-2 text-sm sm:text-base text-iha-blue placeholder:text-iha-blue/40 bg-transparent outline-none font-body min-w-0"
           aria-label="Search for healthcare services by type, location, or facility name"
           autoComplete="off"
         />

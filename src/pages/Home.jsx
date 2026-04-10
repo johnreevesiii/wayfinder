@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MapPin, Search as SearchIcon, Shield, Wifi } from 'lucide-react';
+import { MapPin, Search as SearchIcon, Shield, Wifi, Map, List } from 'lucide-react';
 import SearchBar from '../components/SearchBar/SearchBar';
 import ServiceChips from '../components/ServiceChips/ServiceChips';
 import FacilityList from '../components/FacilityList/FacilityList';
@@ -19,6 +19,7 @@ export default function Home() {
   const [prcdaData, setPrcdaData] = useState(null);
   const [hasSearched, setHasSearched] = useState(false);
   const [selectedArea, setSelectedArea] = useState(null);
+  const [mobileView, setMobileView] = useState('list'); // 'list' | 'map'
 
   const {
     query, parsedQuery, activeFilters,
@@ -29,7 +30,7 @@ export default function Home() {
   const { position, loading: geoLoading, error: geoError, requestLocation } = useGeolocation();
   const { facilities: searchFiltered, center, hasLocation } = useFilteredFacilities(parsedQuery, hasSearched ? 500 : null);
 
-  // Count facilities per area (for the selector badges)
+  // Count facilities per area
   const facilityCounts = useMemo(() => {
     const counts = {};
     for (const f of facilities) {
@@ -38,7 +39,7 @@ export default function Home() {
     return counts;
   }, []);
 
-  // When in browse mode (no search), filter by selected area
+  // When in browse mode, filter by selected area
   const areaFacilities = useMemo(() => {
     if (!selectedArea) return [];
     return facilities.filter(f => f.ihsArea === selectedArea);
@@ -60,7 +61,7 @@ export default function Home() {
     );
   }, [areaFacilities, activeFilters]);
 
-  // Also filter PRCDA boundaries by selected area
+  // Filter PRCDA boundaries by selected area
   const filteredPrcda = useMemo(() => {
     if (!prcdaData || !selectedArea) return prcdaData;
     return {
@@ -94,7 +95,7 @@ export default function Home() {
   const handleSearch = useCallback((val) => {
     handleSubmit(val);
     setHasSearched(true);
-    setSelectedArea(null); // Clear area selection when searching
+    setSelectedArea(null);
   }, [handleSubmit]);
 
   const handleGeoRequest = useCallback(() => {
@@ -109,9 +110,9 @@ export default function Home() {
 
   const handleSelectArea = useCallback((areaKey) => {
     setSelectedArea(areaKey);
-    setHasSearched(false); // Switch back to browse mode
+    setHasSearched(false);
     setSelectedFacility(null);
-    // Clear search when picking an area
+    setMobileView('list');
     if (areaKey) {
       clearSearch();
     }
@@ -122,15 +123,76 @@ export default function Home() {
     setHasSearched(false);
   }, [clearSearch]);
 
+  // Shared map+list renderer for both search and browse modes
+  const renderMapAndList = () => (
+    <div>
+      {/* Mobile view toggle */}
+      <div className="flex lg:hidden items-center justify-between mb-3">
+        <div className="flex bg-white iha-card-sm overflow-hidden border border-iha-teal/10">
+          <button
+            onClick={() => setMobileView('list')}
+            className={`flex items-center gap-1.5 px-4 py-2.5 text-sm font-semibold transition-colors ${
+              mobileView === 'list' ? 'bg-iha-teal text-white' : 'text-iha-blue/60'
+            }`}
+            aria-pressed={mobileView === 'list'}
+          >
+            <List size={16} /> List
+          </button>
+          <button
+            onClick={() => setMobileView('map')}
+            className={`flex items-center gap-1.5 px-4 py-2.5 text-sm font-semibold transition-colors ${
+              mobileView === 'map' ? 'bg-iha-teal text-white' : 'text-iha-blue/60'
+            }`}
+            aria-pressed={mobileView === 'map'}
+          >
+            <Map size={16} /> Map
+          </button>
+        </div>
+        <span className="text-sm text-iha-blue/50">
+          {displayFacilities.length} {displayFacilities.length === 1 ? 'facility' : 'facilities'}
+        </span>
+      </div>
+
+      {/* Desktop: side by side. Mobile: toggle between map and list */}
+      <div className="flex flex-col lg:flex-row gap-6">
+        {/* Map */}
+        <div className={`lg:w-1/2 lg:sticky lg:top-16 ${
+          mobileView === 'map' ? 'h-[calc(100vh-220px)] sm:h-[450px]' : 'hidden lg:block'
+        } lg:h-[600px]`}>
+          <FacilityMap
+            facilities={displayFacilities}
+            center={displayCenter}
+            selectedId={selectedFacility}
+            onSelectFacility={(id) => { setSelectedFacility(id); setMobileView('list'); }}
+            onViewDetails={handleViewDetails}
+            prcdaVisible={prcdaVisible}
+            prcdaData={displayPrcda}
+          />
+        </div>
+        {/* List */}
+        <div className={`lg:w-1/2 lg:max-h-[600px] lg:overflow-y-auto lg:pr-1 ${
+          mobileView === 'list' ? 'block' : 'hidden lg:block'
+        }`}>
+          <FacilityList
+            facilities={displayFacilities}
+            selectedId={selectedFacility}
+            onSelectFacility={(id) => { setSelectedFacility(id); setMobileView('map'); }}
+            onViewDetails={handleViewDetails}
+          />
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div id="main-content">
       {/* Hero Section */}
-      <section className="bg-iha-teal py-10 sm:py-16 px-4">
+      <section className="bg-iha-teal py-8 sm:py-12 lg:py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="font-heading text-iha-orange text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+          <h1 className="font-heading text-iha-orange text-2xl sm:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4">
             Find Healthcare Near You
           </h1>
-          <p className="text-white/90 text-base sm:text-lg mb-8 max-w-2xl mx-auto" style={{ textAlign: 'center' }}>
+          <p className="text-white/90 text-sm sm:text-base lg:text-lg mb-6 sm:mb-8 max-w-2xl mx-auto" style={{ textAlign: 'center' }}>
             Search IHS, tribal, urban Indian, and community health centers across Indian Country, all in one place.
           </p>
 
@@ -149,21 +211,25 @@ export default function Home() {
       </section>
 
       {/* Chips + Controls */}
-      <section className="max-w-7xl mx-auto px-4 py-4">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <ServiceChips activeFilters={activeFilters} onToggle={toggleFilter} />
-          <PRCDAToggle visible={prcdaVisible} onToggle={() => setPrcdaVisible(!prcdaVisible)} />
+      <section className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
+        <div className="flex flex-col gap-3">
+          <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
+            <ServiceChips activeFilters={activeFilters} onToggle={toggleFilter} />
+          </div>
+          <div className="flex justify-end">
+            <PRCDAToggle visible={prcdaVisible} onToggle={() => setPrcdaVisible(!prcdaVisible)} />
+          </div>
         </div>
       </section>
 
       <div className="iha-divider-light max-w-7xl mx-auto" />
 
       {/* Main content */}
-      <section className="max-w-7xl mx-auto px-4 py-6">
+      <section className="max-w-7xl mx-auto px-4 py-4 sm:py-6">
         {hasSearched ? (
           /* Search results mode */
           <div>
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center justify-between mb-3">
               <p className="text-sm text-iha-blue/60">
                 {displayFacilities.length} results for "{query || 'your location'}"
               </p>
@@ -174,50 +240,30 @@ export default function Home() {
                 Clear search
               </button>
             </div>
-            <div className="flex flex-col lg:flex-row gap-6">
-              <div className="lg:w-1/2 h-[350px] sm:h-[450px] lg:h-[600px] lg:sticky lg:top-16">
-                <FacilityMap
-                  facilities={displayFacilities}
-                  center={displayCenter}
-                  selectedId={selectedFacility}
-                  onSelectFacility={setSelectedFacility}
-                  onViewDetails={handleViewDetails}
-                  prcdaVisible={prcdaVisible}
-                  prcdaData={displayPrcda}
-                />
-              </div>
-              <div className="lg:w-1/2 max-h-[600px] overflow-y-auto pr-1">
-                <FacilityList
-                  facilities={displayFacilities}
-                  selectedId={selectedFacility}
-                  onSelectFacility={setSelectedFacility}
-                  onViewDetails={handleViewDetails}
-                />
-              </div>
-            </div>
+            {renderMapAndList()}
           </div>
         ) : (
           /* Browse by area mode */
           <div>
             {/* Feature cards (only when no area selected) */}
             {!selectedArea && (
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
                 <FeatureCard
-                  icon={<SearchIcon size={28} className="text-iha-orange" />}
+                  icon={<SearchIcon size={24} className="text-iha-orange" />}
                   title="Search by Service"
-                  description='Type what you need: "dental near Shiprock," "behavioral health Bemidji," or just a zip code.'
+                  description='Type what you need: "dental near Shiprock" or just a zip code.'
                 />
                 <FeatureCard
-                  icon={<Shield size={28} className="text-iha-orange" />}
+                  icon={<Shield size={24} className="text-iha-orange" />}
                   title="Check Eligibility"
-                  description="Not sure if you qualify for IHS or tribal health services? Our step-by-step guide can help."
+                  description="Not sure if you qualify? Our step-by-step guide can help."
                   link="/eligibility"
                   linkLabel="Am I Eligible?"
                 />
                 <FeatureCard
-                  icon={<Wifi size={28} className="text-iha-orange" />}
+                  icon={<Wifi size={24} className="text-iha-orange" />}
                   title="Telehealth Options"
-                  description="Find facilities offering phone and video visits, especially helpful for rural and remote communities."
+                  description="Find facilities offering phone and video visits for rural communities."
                   link="/telehealth"
                   linkLabel="View Telehealth"
                 />
@@ -235,30 +281,10 @@ export default function Home() {
 
             {/* Map + List for selected area */}
             {selectedArea ? (
-              <div className="flex flex-col lg:flex-row gap-6">
-                <div className="lg:w-1/2 h-[350px] sm:h-[450px] lg:h-[600px] lg:sticky lg:top-16">
-                  <FacilityMap
-                    facilities={displayFacilities}
-                    center={displayCenter}
-                    selectedId={selectedFacility}
-                    onSelectFacility={setSelectedFacility}
-                    onViewDetails={handleViewDetails}
-                    prcdaVisible={prcdaVisible}
-                    prcdaData={displayPrcda}
-                  />
-                </div>
-                <div className="lg:w-1/2 max-h-[600px] overflow-y-auto pr-1">
-                  <FacilityList
-                    facilities={displayFacilities}
-                    selectedId={selectedFacility}
-                    onSelectFacility={setSelectedFacility}
-                    onViewDetails={handleViewDetails}
-                  />
-                </div>
-              </div>
+              renderMapAndList()
             ) : (
-              /* No area selected: show overview map with no markers */
-              <div className="h-[400px] lg:h-[500px]">
+              /* No area selected: show overview map */
+              <div className="h-[300px] sm:h-[400px] lg:h-[500px]">
                 <FacilityMap
                   facilities={[]}
                   center={null}
@@ -282,9 +308,9 @@ export default function Home() {
       </section>
 
       {/* Legend */}
-      <section className="max-w-7xl mx-auto px-4 pb-8">
-        <div className="bg-white iha-card p-4 flex flex-wrap gap-4 items-center justify-center">
-          <span className="text-xs font-semibold text-iha-blue/60 mr-2">MAP LEGEND:</span>
+      <section className="max-w-7xl mx-auto px-4 pb-6 sm:pb-8">
+        <div className="bg-white iha-card p-3 sm:p-4 flex flex-wrap gap-3 sm:gap-4 items-center justify-center">
+          <span className="text-xs font-semibold text-iha-blue/60 mr-1 sm:mr-2">LEGEND:</span>
           <LegendItem color="#014b50" label="IHS Direct" />
           <LegendItem color="#b75527" label="Tribal 638" />
           <LegendItem color="#563333" label="Urban Indian" />
@@ -297,9 +323,9 @@ export default function Home() {
 
 function FeatureCard({ icon, title, description, link, linkLabel }) {
   return (
-    <div className="bg-white iha-card p-6 shadow-sm hover:shadow-md transition-shadow">
-      <div className="mb-3">{icon}</div>
-      <h3 className="font-heading text-iha-teal text-lg mb-2">{title}</h3>
+    <div className="bg-white iha-card p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow">
+      <div className="mb-2 sm:mb-3">{icon}</div>
+      <h3 className="font-heading text-iha-teal text-base sm:text-lg mb-2">{title}</h3>
       <p className="text-sm text-iha-blue/70 mb-3" style={{ textAlign: 'left' }}>{description}</p>
       {link && (
         <a href={link} className="text-sm font-semibold text-iha-orange hover:text-iha-umber no-underline transition-colors">
@@ -312,7 +338,7 @@ function FeatureCard({ icon, title, description, link, linkLabel }) {
 
 function LegendItem({ color, label }) {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-1.5">
       <span className="w-3 h-3 rounded-full border-2 border-white shadow-sm" style={{ background: color }} />
       <span className="text-xs text-iha-blue/70">{label}</span>
     </div>
