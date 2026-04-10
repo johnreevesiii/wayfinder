@@ -1,7 +1,7 @@
 import { useState, useMemo, useCallback } from 'react';
 import {
   Video, Monitor, Pill, Brain, Stethoscope, MapPin, PhoneCall,
-  ChevronRight, ChevronDown, Search, MapPinIcon, Loader2, X
+  ChevronRight, ChevronDown, Search, Loader2, X
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import facilities from '../../data/facilities.json';
@@ -99,7 +99,12 @@ export default function TelehealthDirectory() {
     setDistance(0);
   };
 
+  const hasFilters = selectedArea || locationCenter;
+
   const filtered = useMemo(() => {
+    // Require at least an area or location before showing results
+    if (!selectedArea && !locationCenter) return [];
+
     let results = [...allTelehealth];
 
     // Filter by category
@@ -260,9 +265,14 @@ export default function TelehealthDirectory() {
       {filtered.length === 0 && (
         <div className="text-center py-12">
           <Video size={40} className="mx-auto text-iha-blue/20 mb-4" />
-          <h3 className="font-heading text-iha-teal text-lg mb-2">No facilities found</h3>
-          <p className="text-sm text-iha-blue/60">
-            Try a different category, expand your distance, or select a different IHS Area.
+          <h3 className="font-heading text-iha-teal text-lg mb-2">
+            {hasFilters ? 'No facilities found' : 'Select an area or enter a location'}
+          </h3>
+          <p className="text-sm text-iha-blue/60 max-w-md mx-auto">
+            {hasFilters
+              ? 'Try a different category, expand your distance, or select a different IHS Area.'
+              : `Choose an IHS Area or enter your city/zip above to see ${allTelehealth.length} telehealth facilities near you.`
+            }
           </p>
         </div>
       )}
