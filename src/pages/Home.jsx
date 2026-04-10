@@ -1,16 +1,29 @@
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { MapPin, Search as SearchIcon, Shield, Wifi, Map, List } from 'lucide-react';
 import SearchBar from '../components/SearchBar/SearchBar';
 import ServiceChips from '../components/ServiceChips/ServiceChips';
 import FacilityList from '../components/FacilityList/FacilityList';
-import FacilityMap from '../components/FacilityMap/FacilityMap';
 import PRCDAToggle from '../components/PRCDALayer/PRCDALayer';
 import AreaSelector, { AREAS } from '../components/AreaSelector/AreaSelector';
 import { useSearch } from '../hooks/useSearch';
 import { useGeolocation } from '../hooks/useGeolocation';
 import { useFilteredFacilities } from '../hooks/useFilteredFacilities';
 import facilities from '../data/facilities.json';
+
+// Lazy-load the map (Leaflet is heavy)
+const FacilityMap = lazy(() => import('../components/FacilityMap/FacilityMap'));
+
+function MapLoader() {
+  return (
+    <div className="w-full h-full iha-card-sm bg-iha-sand flex items-center justify-center" style={{ minHeight: 300 }}>
+      <div className="text-center">
+        <div className="w-8 h-8 border-3 border-iha-teal border-t-transparent rounded-full animate-spin mx-auto mb-3" />
+        <p className="text-sm text-iha-blue/40">Loading map...</p>
+      </div>
+    </div>
+  );
+}
 
 export default function Home() {
   const navigate = useNavigate();
@@ -159,15 +172,17 @@ export default function Home() {
         <div className={`lg:w-1/2 lg:sticky lg:top-16 ${
           mobileView === 'map' ? 'h-[calc(100vh-220px)] sm:h-[450px]' : 'hidden lg:block'
         } lg:h-[600px]`}>
-          <FacilityMap
-            facilities={displayFacilities}
-            center={displayCenter}
-            selectedId={selectedFacility}
-            onSelectFacility={(id) => { setSelectedFacility(id); setMobileView('list'); }}
-            onViewDetails={handleViewDetails}
-            prcdaVisible={prcdaVisible}
-            prcdaData={displayPrcda}
-          />
+          <Suspense fallback={<MapLoader />}>
+            <FacilityMap
+              facilities={displayFacilities}
+              center={displayCenter}
+              selectedId={selectedFacility}
+              onSelectFacility={(id) => { setSelectedFacility(id); setMobileView('list'); }}
+              onViewDetails={handleViewDetails}
+              prcdaVisible={prcdaVisible}
+              prcdaData={displayPrcda}
+            />
+          </Suspense>
         </div>
         {/* List */}
         <div className={`lg:w-1/2 lg:max-h-[600px] lg:overflow-y-auto lg:pr-1 ${
@@ -285,15 +300,17 @@ export default function Home() {
             ) : (
               /* No area selected: show overview map */
               <div className="h-[300px] sm:h-[400px] lg:h-[500px]">
-                <FacilityMap
-                  facilities={[]}
-                  center={null}
-                  selectedId={null}
-                  onSelectFacility={() => {}}
-                  onViewDetails={() => {}}
-                  prcdaVisible={prcdaVisible}
-                  prcdaData={prcdaData}
-                />
+                <Suspense fallback={<MapLoader />}>
+                  <FacilityMap
+                    facilities={[]}
+                    center={null}
+                    selectedId={null}
+                    onSelectFacility={() => {}}
+                    onViewDetails={() => {}}
+                    prcdaVisible={prcdaVisible}
+                    prcdaData={prcdaData}
+                  />
+                </Suspense>
               </div>
             )}
 
