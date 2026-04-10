@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --color-iha-orange: #b75527;
+  --color-iha-teal: #014b50;
+  --color-iha-teal-400: #267e84;
+  --color-iha-brown: #563333;
+  --color-iha-umber: #8a4229;
+  --color-iha-blue: #0e2f3c;
+  --color-iha-sand: #eae8e2;
+  --color-iha-white: #ffffff;
+
+  --font-heading: 'Libre Baskerville', Georgia, serif;
+  --font-body: 'Source Sans 3', 'Source Sans Pro', system-ui, sans-serif;
+}
+
+/* Base */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-iha-blue);
+  background-color: var(--color-iha-sand);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+p {
+  text-align: justify;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background: var(--color-iha-teal);
+  color: white;
+  z-index: 10000;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* IHA shape language: opposite-corner radius */
+.iha-card {
+  border-radius: 0 24px 0 24px;
+}
+
+.iha-card-sm {
+  border-radius: 0 16px 0 16px;
+}
+
+.iha-card-reverse {
+  border-radius: 24px 0 24px 0;
+}
+
+/* Dotted dividers */
+.iha-divider-light {
+  border-top: 2px dotted var(--color-iha-orange);
+}
+
+.iha-divider-dark {
+  border-top: 2px dotted white;
+}
+
+/* Facility card pattern */
+.facility-card {
+  background: white;
+  border-left: 4px solid var(--color-iha-orange);
+  border-radius: 0 16px 0 16px;
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  font-family: var(--font-body);
+  border-radius: 0 16px 0 16px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0 16px 0 16px;
+  font-family: var(--font-body);
+  color: var(--color-iha-blue);
+}
+
+.leaflet-popup-content {
+  margin: 12px 16px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-iha-sand);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-iha-umber);
+  border-radius: 4px;
+}
+
+/* Touch targets */
+@media (pointer: coarse) {
+  button, a, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print { display: none !important; }
+}

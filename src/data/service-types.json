@@ -1,0 +1,17 @@
+{
+  "primary_care": { "label": "Primary Care", "icon": "stethoscope", "keywords": ["doctor", "primary", "checkup", "physical", "sick", "flu", "cold", "diabetes", "blood sugar", "a1c", "hypertension", "blood pressure"] },
+  "dental": { "label": "Dental", "icon": "tooth", "keywords": ["dental", "dentist", "teeth", "tooth", "cavity", "cleaning", "oral"] },
+  "behavioral_health": { "label": "Behavioral Health", "icon": "brain", "keywords": ["mental health", "counseling", "therapy", "behavioral", "depression", "anxiety", "ptsd", "trauma", "psychologist", "psychiatrist"] },
+  "pharmacy": { "label": "Pharmacy", "icon": "pill", "keywords": ["pharmacy", "medication", "prescription", "refill", "medicine", "drug", "rx"] },
+  "telehealth": { "label": "Telehealth", "icon": "video", "keywords": ["telehealth", "virtual", "video visit", "phone visit", "remote", "online"] },
+  "traditional_healing": { "label": "Traditional Healing", "icon": "leaf", "keywords": ["traditional", "medicine man", "healer", "sweat lodge", "ceremony", "cultural", "elder"] },
+  "substance_abuse": { "label": "Substance Abuse Treatment", "icon": "heart-handshake", "keywords": ["substance", "alcohol", "drug", "addiction", "recovery", "sober", "detox", "rehab", "opioid", "meth"] },
+  "prenatal": { "label": "Prenatal / OB", "icon": "baby", "keywords": ["pregnant", "prenatal", "ob", "baby", "maternity", "obstetric", "birth", "midwife", "gynecology"] },
+  "lab": { "label": "Laboratory", "icon": "flask-conical", "keywords": ["lab", "laboratory", "blood test", "blood work", "testing"] },
+  "radiology": { "label": "Radiology / Imaging", "icon": "scan", "keywords": ["radiology", "imaging", "x-ray", "xray", "mri", "ct scan", "ultrasound"] },
+  "emergency": { "label": "Emergency", "icon": "siren", "keywords": ["emergency", "er", "urgent", "trauma"] },
+  "optometry": { "label": "Eye Care", "icon": "eye", "keywords": ["eye", "vision", "glasses", "optometry", "ophthalmology"] },
+  "physical_therapy": { "label": "Physical Therapy", "icon": "accessibility", "keywords": ["physical therapy", "pt", "rehab", "rehabilitation"] },
+  "nutrition": { "label": "Nutrition / WIC", "icon": "apple", "keywords": ["nutrition", "diet", "wic", "food", "diabetes education"] },
+  "community_health": { "label": "Community Health", "icon": "users", "keywords": ["community", "outreach", "education", "prevention", "wellness"] }
+}
