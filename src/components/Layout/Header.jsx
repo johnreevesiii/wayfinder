@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ExternalLink } from 'lucide-react';
 import { useState } from 'react';
 
 const NAV_LINKS = [
@@ -51,6 +51,15 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+
+          {/* Cross-nav to Equity Dashboard */}
+          <span className="w-px h-5 bg-white/20 mx-1" aria-hidden="true" />
+          <a
+            href="https://indigenous.health"
+            className="flex items-center gap-1 px-3 py-1.5 rounded text-sm font-medium text-white/60 hover:bg-iha-teal-400 hover:text-white transition-colors no-underline"
+          >
+            Equity Dashboard <ExternalLink size={12} />
+          </a>
         </nav>
 
         {/* Mobile menu button */}
@@ -86,6 +95,12 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
+          <a
+            href="https://indigenous.health"
+            className="flex items-center gap-2 px-6 py-4 text-base font-medium no-underline border-b border-white/5 text-white/60 hover:text-iha-orange hover:bg-white/5"
+          >
+            Equity Dashboard <ExternalLink size={14} />
+          </a>
         </nav>
       )}
     </header>
