@@ -24,7 +24,7 @@ export default function PRCDAToggle({ visible, onToggle }) {
         >
           <Info size={16} />
         </button>
-        <div className="absolute bottom-full left-0 mb-2 w-72 p-3 bg-white shadow-lg rounded-lg text-xs text-iha-blue/80 invisible group-hover:visible group-focus-within:visible z-50 border border-iha-sand">
+        <div className="absolute bottom-full right-0 mb-2 w-64 sm:w-72 p-3 bg-white shadow-lg rounded-lg text-xs text-iha-blue/80 invisible group-hover:visible group-focus-within:visible z-50 border border-iha-sand">
           <strong className="text-iha-teal block mb-1">Purchased/Referred Care Delivery Area (PRCDA)</strong>
           <p style={{ textAlign: 'left' }}>
             A PRCDA is a geographic area around an IHS or tribal facility. If you live within a PRCDA
