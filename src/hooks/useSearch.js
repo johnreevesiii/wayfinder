@@ -1,131 +1,103 @@
-import { useState, useCallback, useRef } from 'react';
-import { parseSearch } from '../utils/searchParser';
+import { useState, useCallback } from 'react';
 import { geocodeLocation } from './useFilteredFacilities';
+import { parseSearch } from '../utils/searchParser';
 
 export function useSearch() {
-  const [query, setQuery] = useState('');
-  const [parsedQuery, setParsedQuery] = useState(null);
-  const [activeFilters, setActiveFilters] = useState([]);
+  const [searchParams, setSearchParams] = useState(null);
   const [geocoding, setGeocoding] = useState(false);
-  const debounceRef = useRef(null);
+  const [geoLabel, setGeoLabel] = useState('');
 
-  const executeSearch = useCallback(async (searchText, filters = []) => {
-    const parsed = parseSearch(searchText);
-    const allServices = [...new Set([...parsed.services, ...filters])];
-
-    // If the parser found a location, use it directly
-    if (parsed.location && parsed.location.lat && parsed.location.lng) {
-      setParsedQuery({ ...parsed, services: allServices });
-      setActiveFilters(filters);
+  /**
+   * Structured search from the guided form.
+   * { service, location, distance, facilityType }
+   */
+  const executeStructuredSearch = useCallback(async (params) => {
+    if (!params) {
+      setSearchParams(null);
       return;
     }
 
-    // If no location was found by the parser, try geocoding the raw query
-    // Extract potential location text (remove service keywords)
-    const locationText = extractLocationText(searchText, parsed.services);
+    const { service, location, distance, facilityType } = params;
 
-    if (locationText && locationText.length >= 3) {
-      setGeocoding(true);
-      setParsedQuery({ ...parsed, services: allServices }); // show immediate results while geocoding
-
-      const geo = await geocodeLocation(locationText);
-      setGeocoding(false);
-
-      if (geo) {
-        const locationOverride = {
-          type: 'geocoded',
-          value: locationText,
-          lat: geo.lat,
-          lng: geo.lng,
-          label: geo.label,
-        };
-        setParsedQuery({ ...parsed, services: allServices, location: locationOverride });
-        return;
-      }
+    // If no location provided, just filter by service/type
+    if (!location || !location.trim()) {
+      setSearchParams({
+        services: service ? [service] : [],
+        facilityType: facilityType || null,
+        location: null,
+        maxDistance: null,
+        locationLabel: null,
+      });
+      return;
     }
 
-    // No location could be resolved
-    setParsedQuery({ ...parsed, services: allServices });
-    setActiveFilters(filters);
+    // Try to resolve the location
+    const locationText = location.trim();
+
+    // First try the search parser's built-in location lookup
+    const parsed = parseSearch(locationText);
+    if (parsed.location && parsed.location.lat && parsed.location.lng) {
+      setSearchParams({
+        services: service ? [service] : [],
+        facilityType: facilityType || null,
+        location: { lat: parsed.location.lat, lng: parsed.location.lng },
+        maxDistance: distance,
+        locationLabel: parsed.location.label || locationText,
+      });
+      return;
+    }
+
+    // Fall back to geocoding
+    setGeocoding(true);
+    const geo = await geocodeLocation(locationText);
+    setGeocoding(false);
+
+    if (geo) {
+      setSearchParams({
+        services: service ? [service] : [],
+        facilityType: facilityType || null,
+        location: { lat: geo.lat, lng: geo.lng },
+        maxDistance: distance,
+        locationLabel: geo.label || locationText,
+      });
+    } else {
+      // Location not found
+      setSearchParams({
+        services: service ? [service] : [],
+        facilityType: facilityType || null,
+        location: null,
+        maxDistance: null,
+        locationLabel: null,
+        locationNotFound: locationText,
+      });
+    }
   }, []);
 
-  const handleQueryChange = useCallback((value) => {
-    setQuery(value);
-
-    if (debounceRef.current) clearTimeout(debounceRef.current);
-    debounceRef.current = setTimeout(() => {
-      if (value.trim().length >= 2) {
-        executeSearch(value, activeFilters);
-      } else if (value.trim().length === 0) {
-        setParsedQuery(null);
-      }
-    }, 400);
-  }, [executeSearch, activeFilters]);
-
-  const handleSubmit = useCallback((value) => {
-    if (debounceRef.current) clearTimeout(debounceRef.current);
-    setQuery(value);
-    executeSearch(value, activeFilters);
-  }, [executeSearch, activeFilters]);
-
-  const toggleFilter = useCallback((filterKey) => {
-    setActiveFilters(prev => {
-      let next;
-      if (filterKey === 'all') {
-        next = [];
-      } else if (prev.includes(filterKey)) {
-        next = prev.filter(f => f !== filterKey);
-      } else {
-        next = [...prev, filterKey];
-      }
-      executeSearch(query, next);
-      return next;
-    });
-  }, [query, executeSearch]);
-
+  /**
+   * Set location from browser geolocation.
+   */
   const setLocationFromGeo = useCallback((lat, lng) => {
-    const locationOverride = { type: 'coords', value: `${lat},${lng}`, lat, lng, label: 'Your location' };
-    const parsed = parseSearch(query);
-    const allServices = [...new Set([...parsed.services, ...activeFilters])];
-    setParsedQuery({ ...parsed, services: allServices, location: locationOverride });
-  }, [query, activeFilters]);
+    setGeoLabel('Your location');
+    setSearchParams(prev => ({
+      ...(prev || { services: [], facilityType: null }),
+      location: { lat, lng },
+      maxDistance: prev?.maxDistance || 100,
+      locationLabel: 'Your location',
+      locationNotFound: null,
+    }));
+  }, []);
 
   const clearSearch = useCallback(() => {
-    setQuery('');
-    setParsedQuery(null);
-    setActiveFilters([]);
+    setSearchParams(null);
+    setGeoLabel('');
   }, []);
 
   return {
-    query,
-    parsedQuery,
-    activeFilters,
+    searchParams,
     geocoding,
-    handleQueryChange,
-    handleSubmit,
-    toggleFilter,
+    geoLabel,
+    executeStructuredSearch,
     setLocationFromGeo,
     clearSearch,
   };
-}
-
-/**
- * Try to extract the location portion of a search query by removing known service keywords.
- */
-const SERVICE_WORDS = new Set([
-  'medical', 'doctor', 'primary', 'care', 'dental', 'dentist', 'teeth', 'tooth',
-  'mental', 'health', 'counseling', 'therapy', 'behavioral', 'depression', 'anxiety',
-  'pharmacy', 'medication', 'prescription', 'substance', 'abuse', 'alcohol', 'drug',
-  'addiction', 'recovery', 'pregnant', 'prenatal', 'baby', 'maternity', 'telehealth',
-  'virtual', 'traditional', 'healing', 'emergency', 'urgent', 'lab', 'laboratory',
-  'radiology', 'imaging', 'eye', 'vision', 'clinic', 'hospital', 'checkup', 'physical',
-  'find', 'need', 'looking', 'for', 'want', 'get', 'the', 'a', 'an', 'in', 'at',
-  'i', 'me', 'my', 'near', 'around', 'close', 'to', 'by', 'from', 'services',
-]);
-
-function extractLocationText(query, services) {
-  const words = query.toLowerCase().trim().split(/\s+/);
-  const locationWords = words.filter(w => !SERVICE_WORDS.has(w));
-  const text = locationWords.join(' ').trim();
-  return text || null;
 }

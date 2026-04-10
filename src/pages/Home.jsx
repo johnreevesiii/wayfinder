@@ -1,17 +1,15 @@
 import { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MapPin, Search as SearchIcon, Shield, Wifi, Map, List } from 'lucide-react';
+import { Shield, Wifi, Map, List, Search as SearchIcon } from 'lucide-react';
 import SearchBar from '../components/SearchBar/SearchBar';
-import ServiceChips from '../components/ServiceChips/ServiceChips';
 import FacilityList from '../components/FacilityList/FacilityList';
 import PRCDAToggle from '../components/PRCDALayer/PRCDALayer';
 import AreaSelector, { AREAS } from '../components/AreaSelector/AreaSelector';
 import { useSearch } from '../hooks/useSearch';
 import { useGeolocation } from '../hooks/useGeolocation';
 import { useFilteredFacilities } from '../hooks/useFilteredFacilities';
-import facilities from '../data/facilities.json';
+import allFacilities from '../data/facilities.json';
 
-// Lazy-load the map (Leaflet is heavy)
 const FacilityMap = lazy(() => import('../components/FacilityMap/FacilityMap'));
 
 function MapLoader() {
@@ -32,33 +30,31 @@ export default function Home() {
   const [prcdaData, setPrcdaData] = useState(null);
   const [hasSearched, setHasSearched] = useState(false);
   const [selectedArea, setSelectedArea] = useState(null);
-  const [mobileView, setMobileView] = useState('list'); // 'list' | 'map'
+  const [mobileView, setMobileView] = useState('list');
 
   const {
-    query, parsedQuery, activeFilters, geocoding,
-    handleQueryChange, handleSubmit, toggleFilter,
-    setLocationFromGeo, clearSearch,
+    searchParams, geocoding, geoLabel,
+    executeStructuredSearch, setLocationFromGeo, clearSearch,
   } = useSearch();
 
   const { position, loading: geoLoading, error: geoError, requestLocation } = useGeolocation();
-  const { facilities: searchFiltered, center, hasLocation, locationNotFound, locationQuery, totalMatches } = useFilteredFacilities(parsedQuery, hasSearched ? 150 : null);
+  const { facilities: searchFiltered, center, hasLocation, locationNotFound, totalMatches } = useFilteredFacilities(searchParams);
 
-  // Count facilities per area
+  // Facility counts per area
   const facilityCounts = useMemo(() => {
     const counts = {};
-    for (const f of facilities) {
+    for (const f of allFacilities) {
       counts[f.ihsArea] = (counts[f.ihsArea] || 0) + 1;
     }
     return counts;
   }, []);
 
-  // When in browse mode, filter by selected area
+  // Browse mode: filter by area
   const areaFacilities = useMemo(() => {
     if (!selectedArea) return [];
-    return facilities.filter(f => f.ihsArea === selectedArea);
+    return allFacilities.filter(f => f.ihsArea === selectedArea);
   }, [selectedArea]);
 
-  // Get area center for map
   const areaCenter = useMemo(() => {
     if (!selectedArea) return null;
     const area = AREAS.find(a => a.key === selectedArea);
@@ -66,31 +62,21 @@ export default function Home() {
     return { lat: area.center[0], lng: area.center[1], zoom: area.zoom };
   }, [selectedArea]);
 
-  // Filter area facilities by active service chips
-  const areaFiltered = useMemo(() => {
-    if (activeFilters.length === 0) return areaFacilities;
-    return areaFacilities.filter(f =>
-      activeFilters.some(s => f.services.includes(s))
-    );
-  }, [areaFacilities, activeFilters]);
-
-  // Filter PRCDA boundaries by selected area
+  // Filter PRCDA by area in browse mode
   const filteredPrcda = useMemo(() => {
     if (!prcdaData || !selectedArea) return prcdaData;
     return {
       ...prcdaData,
-      features: prcdaData.features.filter(f =>
-        f.properties?.ihsArea === selectedArea
-      ),
+      features: prcdaData.features.filter(f => f.properties?.ihsArea === selectedArea),
     };
   }, [prcdaData, selectedArea]);
 
-  // Determine what to display
-  const displayFacilities = hasSearched ? searchFiltered : areaFiltered;
+  // Display logic
+  const displayFacilities = hasSearched ? searchFiltered : areaFacilities;
   const displayCenter = hasSearched ? center : areaCenter;
   const displayPrcda = hasSearched ? prcdaData : filteredPrcda;
 
-  // When geolocation resolves, set it as center
+  // When geolocation resolves
   useEffect(() => {
     if (position) {
       setLocationFromGeo(position.lat, position.lng);
@@ -98,23 +84,27 @@ export default function Home() {
     }
   }, [position, setLocationFromGeo]);
 
-  // Lazy load PRCDA data
+  // Lazy load PRCDA
   useEffect(() => {
     if (prcdaVisible && !prcdaData) {
       import('../data/prcda-boundaries.json').then(mod => setPrcdaData(mod.default));
     }
   }, [prcdaVisible, prcdaData]);
 
-  const handleSearch = useCallback((val) => {
-    handleSubmit(val);
+  const handleStructuredSearch = useCallback((params) => {
+    if (!params) {
+      clearSearch();
+      setHasSearched(false);
+      return;
+    }
+    executeStructuredSearch(params);
     setHasSearched(true);
     setSelectedArea(null);
-  }, [handleSubmit]);
+  }, [executeStructuredSearch, clearSearch]);
 
-  const handleGeoRequest = useCallback(() => {
+  const handleGeoRequest = useCallback((callback) => {
     requestLocation();
-    setHasSearched(true);
-    setSelectedArea(null);
+    // The useEffect on position will handle setLocationFromGeo
   }, [requestLocation]);
 
   const handleViewDetails = useCallback((id) => {
@@ -126,9 +116,7 @@ export default function Home() {
     setHasSearched(false);
     setSelectedFacility(null);
     setMobileView('list');
-    if (areaKey) {
-      clearSearch();
-    }
+    if (areaKey) clearSearch();
   }, [clearSearch]);
 
   const handleClearSearch = useCallback(() => {
@@ -136,7 +124,7 @@ export default function Home() {
     setHasSearched(false);
   }, [clearSearch]);
 
-  // Shared map+list renderer for both search and browse modes
+  // Shared map+list renderer
   const renderMapAndList = () => (
     <div>
       {/* Mobile view toggle */}
@@ -166,9 +154,7 @@ export default function Home() {
         </span>
       </div>
 
-      {/* Desktop: side by side. Mobile: toggle between map and list */}
       <div className="flex flex-col lg:flex-row gap-6">
-        {/* Map */}
         <div className={`lg:w-1/2 lg:sticky lg:top-16 ${
           mobileView === 'map' ? 'h-[calc(100vh-220px)] sm:h-[450px]' : 'hidden lg:block'
         } lg:h-[600px]`}>
@@ -184,7 +170,6 @@ export default function Home() {
             />
           </Suspense>
         </div>
-        {/* List */}
         <div className={`lg:w-1/2 lg:max-h-[600px] lg:overflow-y-auto lg:pr-1 ${
           mobileView === 'list' ? 'block' : 'hidden lg:block'
         }`}>
@@ -201,8 +186,8 @@ export default function Home() {
 
   return (
     <div id="main-content">
-      {/* Hero Section */}
-      <section className="bg-iha-teal py-8 sm:py-12 lg:py-16 px-4">
+      {/* Hero */}
+      <section className="bg-iha-teal py-8 sm:py-12 lg:py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="font-heading text-iha-orange text-2xl sm:text-3xl lg:text-5xl font-bold mb-3 sm:mb-4">
             Find Healthcare Near You
@@ -212,11 +197,11 @@ export default function Home() {
           </p>
 
           <SearchBar
-            query={query}
-            onQueryChange={handleQueryChange}
-            onSubmit={handleSearch}
+            onStructuredSearch={handleStructuredSearch}
             onUseLocation={handleGeoRequest}
             geoLoading={geoLoading}
+            geoLabel={geoLabel}
+            geocoding={geocoding}
           />
 
           {geoError && (
@@ -225,15 +210,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Chips + Controls */}
+      {/* PRCDA toggle */}
       <section className="max-w-7xl mx-auto px-4 py-3 sm:py-4">
-        <div className="flex flex-col gap-3">
-          <div className="overflow-x-auto -mx-4 px-4 sm:mx-0 sm:px-0">
-            <ServiceChips activeFilters={activeFilters} onToggle={toggleFilter} />
-          </div>
-          <div className="flex justify-end">
-            <PRCDAToggle visible={prcdaVisible} onToggle={() => setPrcdaVisible(!prcdaVisible)} />
-          </div>
+        <div className="flex justify-end">
+          <PRCDAToggle visible={prcdaVisible} onToggle={() => setPrcdaVisible(!prcdaVisible)} />
         </div>
       </section>
 
@@ -242,17 +222,19 @@ export default function Home() {
       {/* Main content */}
       <section className="max-w-7xl mx-auto px-4 py-4 sm:py-6">
         {hasSearched ? (
-          /* Search results mode */
           <div>
+            {/* Results header */}
             <div className="mb-3">
               <div className="flex items-center justify-between">
                 <p className="text-sm text-iha-blue/60">
                   {geocoding ? (
                     'Finding location...'
                   ) : hasLocation ? (
-                    <>{displayFacilities.length} results near {center?.label || query}{totalMatches > displayFacilities.length ? ` (showing closest ${displayFacilities.length} of ${totalMatches})` : ''}</>
+                    <>{displayFacilities.length} results near {center?.label}{totalMatches > displayFacilities.length ? ` (closest ${displayFacilities.length} of ${totalMatches})` : ''}</>
+                  ) : displayFacilities.length > 0 ? (
+                    <>{displayFacilities.length} results{totalMatches > displayFacilities.length ? ` (showing ${displayFacilities.length} of ${totalMatches})` : ''}</>
                   ) : (
-                    <>{displayFacilities.length} results for "{query}"</>
+                    'No results found'
                   )}
                 </p>
                 <button
@@ -264,22 +246,21 @@ export default function Home() {
               </div>
               {locationNotFound && (
                 <p className="text-sm text-iha-umber mt-2 bg-iha-orange/10 px-3 py-2 iha-card-sm">
-                  Could not find location "{locationQuery}". Try a zip code, city name, or use the location button. Showing top results by service match.
+                  Could not find that location. Try a zip code, city name, or use the location button.
                 </p>
               )}
             </div>
             {renderMapAndList()}
           </div>
         ) : (
-          /* Browse by area mode */
           <div>
-            {/* Feature cards (only when no area selected) */}
+            {/* Feature cards when no area selected */}
             {!selectedArea && (
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 mb-8">
                 <FeatureCard
                   icon={<SearchIcon size={24} className="text-iha-orange" />}
-                  title="Search by Service"
-                  description='Type what you need: "dental near Shiprock" or just a zip code.'
+                  title="Search Above"
+                  description="Select a service type and enter your location to find the nearest facilities."
                 />
                 <FeatureCard
                   icon={<Shield size={24} className="text-iha-orange" />}
@@ -307,11 +288,9 @@ export default function Home() {
               />
             </div>
 
-            {/* Map + List for selected area */}
             {selectedArea ? (
               renderMapAndList()
             ) : (
-              /* No area selected: show overview map */
               <div className="h-[300px] sm:h-[400px] lg:h-[500px]">
                 <Suspense fallback={<MapLoader />}>
                   <FacilityMap
@@ -330,7 +309,7 @@ export default function Home() {
             <p className="text-sm text-iha-blue/50 text-center mt-3" style={{ textAlign: 'center' }}>
               {selectedArea
                 ? `Showing ${displayFacilities.length} facilities in the ${AREAS.find(a => a.key === selectedArea)?.label || ''} Area`
-                : `${facilities.length} facilities across 12 IHS Areas. Select an area above or search to get started.`
+                : `${allFacilities.length} facilities across 12 IHS Areas. Select an area above or search to get started.`
               }
             </p>
           </div>
