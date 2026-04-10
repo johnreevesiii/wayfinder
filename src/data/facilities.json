@@ -15195,5 +15195,6270 @@
     ],
     "dataSource": "HRSA Health Center Data",
     "dataSourceNotes": "Community mental health center serving west-central Alabama including Poarch Creek service area"
+  },
+  {
+    "id": "add-001",
+    "name": "Lassen Indian Health Center (Susanville Indian Rancheria)",
+    "type": "tribal_638",
+    "lat": 40.4163,
+    "lng": -120.653,
+    "address": "795 Joaquin Street, Susanville, CA 96130",
+    "phone": "(530) 257-2542",
+    "website": "https://www.lihc.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "nutrition",
+      "diabetes_education",
+      "optometry"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Susanville Indian Rancheria operates Lassen Indian Health Center as a 638-contract facility serving Lassen County tribal members. FQHC designation. Toll-free: 800-451-9494."
+  },
+  {
+    "id": "add-002",
+    "name": "Rolling Hills Clinic - Corning",
+    "type": "tribal_638",
+    "lat": 39.9277,
+    "lng": -122.1792,
+    "address": "705 East Street, Corning, CA 96021",
+    "phone": "(530) 690-2827",
+    "website": "https://rhclinic.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "specialty_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 7:30 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Owned by Paskenta Band of Nomlaki Indians. Nonprofit tribal community clinic open to all. Celebrated 10th anniversary in 2024."
+  },
+  {
+    "id": "add-003",
+    "name": "Rolling Hills Clinic - Red Bluff",
+    "type": "tribal_638",
+    "lat": 40.1785,
+    "lng": -122.2358,
+    "address": "2540 Sister Mary Columba Drive, Red Bluff, CA 96080",
+    "phone": "(530) 690-2778",
+    "website": "https://rhclinic.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "specialty_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 7:30 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Paskenta Band of Nomlaki Indians second location. Newly expanded two-story facility opened 2024."
+  },
+  {
+    "id": "add-004",
+    "name": "Shingle Springs Health & Wellness Center",
+    "type": "tribal_638",
+    "lat": 38.7296,
+    "lng": -120.7985,
+    "address": "5168 Honpie Road, Placerville, CA 95667",
+    "phone": "(530) 387-4975",
+    "website": "https://sshwc.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "orthodontics",
+      "podiatry",
+      "chiropractic",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Owned by the Shingle Springs Band of Miwok Indians. Comprehensive health center serving El Dorado County. Open to all patients."
+  },
+  {
+    "id": "add-005",
+    "name": "Mathiesen Memorial Health Clinic (Chicken Ranch Rancheria)",
+    "type": "tribal_638",
+    "lat": 37.9537,
+    "lng": -120.4226,
+    "address": "18144 Seco Street, Suite A, Jamestown, CA 95327",
+    "phone": "(209) 984-4820",
+    "website": "https://www.mathiesenclinic.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "womens_health",
+      "pediatrics",
+      "diabetes_education",
+      "lab"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 7:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Chicken Ranch Rancheria of Me-Wuk Indians operates Mathiesen Memorial Health Clinic. Opened 2008. IHS-funded, open to general community."
+  },
+  {
+    "id": "add-006",
+    "name": "Table Mountain Rancheria Medical, Dental & Vision Center",
+    "type": "tribal_638",
+    "lat": 36.988,
+    "lng": -119.7076,
+    "address": "23638 Sky Harbour Road, Friant, CA 93626",
+    "phone": "(559) 822-3785",
+    "website": "https://tablemountainrancheria.com/medical/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "optometry",
+      "behavioral_health",
+      "pharmacy"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Table Mountain Rancheria operates its own medical, dental, and vision center on rancheria land near Friant."
+  },
+  {
+    "id": "add-007",
+    "name": "Tachi Clinic (Central Valley Indian Health)",
+    "type": "tribal_638",
+    "lat": 36.306,
+    "lng": -119.784,
+    "address": "16835 Alkali Drive, Suite M, Lemoore, CA 93245",
+    "phone": "(559) 924-1541",
+    "website": "https://cvih.org/tachi-clinic",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM",
+      "dental": "Mon-Thu 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Tachi-Yokut Tribe / Santa Rosa Rancheria. Operated by Central Valley Indian Health. Dental phone: 559-924-0460."
+  },
+  {
+    "id": "add-008",
+    "name": "Central Valley Indian Health - North Fork Clinic",
+    "type": "tribal_638",
+    "lat": 37.2292,
+    "lng": -119.5131,
+    "address": "32938 Road 222, Suite 2, North Fork, CA 93643",
+    "phone": "(559) 877-4676",
+    "website": "https://cvih.org/north-fork-clinic",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "pain_management",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves North Fork Rancheria of Mono Indians. Operated by CVIH as a satellite clinic."
+  },
+  {
+    "id": "add-009",
+    "name": "Central Valley Indian Health - Prather Clinic",
+    "type": "tribal_638",
+    "lat": 36.9937,
+    "lng": -119.526,
+    "address": "29369 Auberry Road, Prather, CA 93651",
+    "phone": "(559) 855-5508",
+    "website": "https://cvih.org/prather-clinic",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Cold Springs Rancheria and Mono tribal communities in eastern Fresno County. Operated by CVIH. New clinic building opened."
+  },
+  {
+    "id": "add-010",
+    "name": "Central Valley Indian Health - Clovis Clinic",
+    "type": "tribal_638",
+    "lat": 36.8394,
+    "lng": -119.6927,
+    "address": "2740 Herndon Avenue, Clovis, CA 93611",
+    "phone": "(559) 299-2578",
+    "website": "https://cvih.org/clovis-clinic",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "nutrition",
+      "diabetes_education",
+      "optometry",
+      "womens_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Main CVIH administrative/clinical hub serving Fresno metro area urban Indian population. Largest CVIH facility."
+  },
+  {
+    "id": "add-011",
+    "name": "Bridgeport Indian Health Clinic (Toiyabe)",
+    "type": "tribal_638",
+    "lat": 38.2555,
+    "lng": -119.2312,
+    "address": "199 Twin Lakes Road, Bridgeport, CA 93517",
+    "phone": "(530) 495-2100",
+    "website": "https://www.toiyabe.us/bridgeport-clinic/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:30 AM - 4:30 PM (Closed 12:00 - 1:00 PM)"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Bridgeport Indian Colony. Satellite clinic of Toiyabe Indian Health Project (Bishop main office). Remote Mono County location."
+  },
+  {
+    "id": "add-012",
+    "name": "Lake County Tribal Health - Middletown Clinic",
+    "type": "tribal_638",
+    "lat": 38.7516,
+    "lng": -122.6148,
+    "address": "22223 CA-29, Rancheria Road, Middletown, CA 95461",
+    "phone": "(707) 263-8382",
+    "website": "https://www.lcthc.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "2nd & 4th Wednesday 9:00 AM - 11:00 AM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Satellite of Lake County Tribal Health Consortium (Lakeport). Serves Middletown Rancheria of Pomo Indians. Limited hours \u00e2\u20ac\u201d general family practice only."
+  },
+  {
+    "id": "add-013",
+    "name": "Manchester-Point Arena Satellite Clinic (SCIHP)",
+    "type": "tribal_638",
+    "lat": 38.9088,
+    "lng": -123.6931,
+    "address": "10A Mamie Laiwa Drive, Point Arena, CA 95468",
+    "phone": "(707) 882-2877",
+    "website": "https://www.scihp.org/manchester-point-arena-satellite-clinic/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Operated by Sonoma County Indian Health Project. Satellite serving Manchester-Point Arena Rancheria in remote coastal Mendocino County. Limited services; no emergency care."
+  },
+  {
+    "id": "add-014",
+    "name": "Sycuan Health Center",
+    "type": "tribal_638",
+    "lat": 32.7747,
+    "lng": -116.885,
+    "address": "4921 Dehesa Road, El Cajon, CA 92019",
+    "phone": "(619) 445-0707",
+    "website": "https://sycuanhealthcenter.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "optometry",
+      "nutrition",
+      "diabetes_education"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Sycuan Band of the Kumeyaay Nation operates its own health center. State-of-the-art facility serves East County residents including tribal members and broader community."
+  },
+  {
+    "id": "add-015",
+    "name": "SIHC Campo Clinic",
+    "type": "tribal_638",
+    "lat": 32.6078,
+    "lng": -116.4681,
+    "address": "36350 Church Road, Campo, CA 91906",
+    "phone": "(619) 445-1188",
+    "website": "https://www.sihc.org/locations",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Southern Indian Health Council satellite clinic on Campo Indian Reservation. Serves Campo Kumeyaay Nation and nearby La Posta, Manzanita, Ewiiaapaayp bands."
+  },
+  {
+    "id": "add-016",
+    "name": "Kumeyaay Wellness Center (SIHC)",
+    "type": "tribal_638",
+    "lat": 32.617,
+    "lng": -116.455,
+    "address": "39990 Highway 94, Boulevard, CA 91905",
+    "phone": "(619) 445-1188",
+    "website": "https://www.sihc.org/kwc",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "substance_abuse"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "wellness_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "SIHC behavioral health / wellness facility on La Posta Reservation in Boulevard. Outpatient substance abuse and behavioral health services. Houses Boys & Girls Club of Kumeyaay Nation Wellness."
+  },
+  {
+    "id": "add-017",
+    "name": "Torres-Martinez Indian Health Clinic",
+    "type": "tribal_638",
+    "lat": 33.5224,
+    "lng": -116.097,
+    "address": "66655 Martinez Road, Thermal, CA 92274",
+    "phone": "(760) 397-4476",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Thu 8:00 AM - 5:00 PM, Fri 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Torres Martinez Desert Cahuilla Indians. Operated by RSBCIHI. New clinic opened 2021 in Thermal."
+  },
+  {
+    "id": "add-018",
+    "name": "Morongo Indian Health Clinic",
+    "type": "tribal_638",
+    "lat": 33.9375,
+    "lng": -116.8736,
+    "address": "11555 1/2 Potrero Road, Banning, CA 92220",
+    "phone": "(951) 849-4761",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon 8:00 AM - 5:00 PM, Tue 8:00 AM - 7:00 PM, Wed-Thu 8:00 AM - 5:00 PM, Fri 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Morongo Band of Mission Indians. Operated by RSBCIHI on Morongo reservation. Appointment required. Toll-free: 800-732-8805."
+  },
+  {
+    "id": "add-019",
+    "name": "San Manuel Indian Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.0343,
+    "lng": -117.2808,
+    "address": "11980 Mount Vernon Avenue, Grand Terrace, CA 92313",
+    "phone": "(909) 864-1097",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "optometry",
+      "nutrition",
+      "diabetes_education",
+      "womens_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Wed 8:00 AM - 5:00 PM, Thu 8:00 AM - 7:00 PM, Fri 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Yuhaaviatam of San Manuel Nation (formerly San Manuel Band of Mission Indians). Operated by RSBCIHI. Located in Grand Terrace, not on reservation in Highland."
+  },
+  {
+    "id": "add-020",
+    "name": "Soboba Indian Health Clinic",
+    "type": "tribal_638",
+    "lat": 33.7675,
+    "lng": -116.9673,
+    "address": "23119 Soboba Road, San Jacinto, CA 92583",
+    "phone": "(951) 654-0803",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "optometry",
+      "lab",
+      "womens_health",
+      "nutrition",
+      "radiology",
+      "fitness"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon,Tue,Thu 8:00 AM - 5:00 PM, Wed 8:00 AM - 7:00 PM, Fri 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Soboba Band of Luiseno Indians. Operated by RSBCIHI. New expanded facility at 23119 Soboba Road with mammography, ultrasound, fitness center. Toll-free: 800-851-5816."
+  },
+  {
+    "id": "add-021",
+    "name": "Pechanga Indian Health Clinic",
+    "type": "tribal_638",
+    "lat": 33.473,
+    "lng": -117.0758,
+    "address": "47001 Pala Road, Temecula, CA 92592",
+    "phone": "(951) 676-6810",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "optometry"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 2:00 PM (appointment required)"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Pechanga Band of Indians. Operated by RSBCIHI. FQHC. Located near Pechanga Resort Casino."
+  },
+  {
+    "id": "add-022",
+    "name": "Cahuilla Indian Health Clinic (Anza)",
+    "type": "tribal_638",
+    "lat": 33.5536,
+    "lng": -116.67,
+    "address": "39100 Contreras Road, Suite C, Anza, CA 92539",
+    "phone": "(951) 763-4835",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "substance_abuse",
+      "diabetes_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Thu 8:00 AM - 5:00 PM, Fri 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Cahuilla Band of Indians and Ramona Band of Cahuilla in Anza area. Operated by RSBCIHI. Toll-free: 877-781-0555."
+  },
+  {
+    "id": "add-023",
+    "name": "Santa Rosa Indian Health Clinic (Mountain Center)",
+    "type": "tribal_638",
+    "lat": 33.6824,
+    "lng": -116.7184,
+    "address": "65175 State Highway 74, Mountain Center, CA 92561",
+    "phone": "(951) 659-2700",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Thu 8:00 AM - 5:00 PM, Fri 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Serves Santa Rosa Band of Cahuilla Indians. Operated by RSBCIHI. Remote mountain community on Highway 74."
+  },
+  {
+    "id": "add-024",
+    "name": "Barstow Indian Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.8958,
+    "lng": -117.0228,
+    "address": "170 Yucca Avenue, Barstow, CA 92311",
+    "phone": "(760) 256-9016",
+    "website": "https://www.rsbcihi.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Thu 8:00 AM - 5:00 PM, Fri 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "RSBCIHI satellite clinic serving urban Indian population in Barstow/High Desert area of San Bernardino County."
+  },
+  {
+    "id": "add-025",
+    "name": "Wiyot Tribe Health Department",
+    "type": "tribal_638",
+    "lat": 40.641,
+    "lng": -124.2209,
+    "address": "1000 Wiyot Drive, Loleta, CA 95551",
+    "phone": "(707) 733-5055",
+    "website": "https://www.wiyot.us/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Wiyot Tribe on Table Bluff Reservation. Primary health services through United Indian Health Services (Arcata). Tribe operates community health worker and social services programs on-site."
+  },
+  {
+    "id": "add-026",
+    "name": "Sherwood Valley Band of Pomo Indians Community Health",
+    "type": "tribal_638",
+    "lat": 39.3977,
+    "lng": -123.3526,
+    "address": "190 Sherwood Hill Drive, Willits, CA 95490",
+    "phone": "(707) 459-9690",
+    "website": "https://www.sherwoodvalleybandofpomo.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Sherwood Valley Rancheria community health services on rancheria. Full medical/dental services through Consolidated Tribal Health Project (Calpella/Redwood Valley)."
+  },
+  {
+    "id": "add-027",
+    "name": "Kashia Band of Pomo Indians Tribal Health",
+    "type": "tribal_638",
+    "lat": 38.4454,
+    "lng": -122.7194,
+    "address": "1420 Guerneville Road, Suite 1, Santa Rosa, CA 95403",
+    "phone": "(707) 591-0580",
+    "website": "https://www.stewartspoint.org/wp2/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Kashia Band of Pomo Indians of Stewarts Point Rancheria. Tribal office in Santa Rosa administers health programs. Primary medical services through Sonoma County Indian Health Project."
+  },
+  {
+    "id": "add-028",
+    "name": "Iipay Nation of Santa Ysabel Health Department",
+    "type": "tribal_638",
+    "lat": 33.1133,
+    "lng": -116.6714,
+    "address": "P.O. Box 130, Santa Ysabel, CA 92070",
+    "phone": "(760) 765-0845",
+    "website": "https://www.iipaynationofsantaysabel-nsn.gov/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Iipay Nation of Santa Ysabel operates community health center on reservation. Full-service primary care through Indian Health Council (Valley Center). 6,100 sq ft health center on reservation."
+  },
+  {
+    "id": "add-029",
+    "name": "Yocha Dehe Wintun Nation Health & Wellness",
+    "type": "tribal_638",
+    "lat": 38.8073,
+    "lng": -122.129,
+    "address": "P.O. Box 18, Brooks, CA 95606",
+    "phone": "(530) 796-3400",
+    "website": "https://yochadehe.gov/health-wellness-department/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "fitness",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Yocha Dehe Wintun Nation (formerly Rumsey Rancheria). Operates health & wellness department. Additional medical services through Northern Valley Indian Health."
+  },
+  {
+    "id": "add-030",
+    "name": "Pala Indian Health Clinic (Indian Health Council)",
+    "type": "tribal_638",
+    "lat": 33.3682,
+    "lng": -117.0679,
+    "address": "50100 Golsh Road, Valley Center, CA 92082",
+    "phone": "(760) 749-1410",
+    "website": "https://www.indianhealth.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Indian Health Council operates this satellite clinic near the Pala Band of Mission Indians reservation. Also serves Rincon, Pauma, La Jolla, San Pasqual, and Los Coyotes bands. Main IHC campus."
+  },
+  {
+    "id": "add-031",
+    "name": "Rincon Health Clinic (Indian Health Council)",
+    "type": "tribal_638",
+    "lat": 33.287,
+    "lng": -117.0535,
+    "address": "1 Government Center Lane, Valley Center, CA 92082",
+    "phone": "(760) 749-1410",
+    "website": "https://www.indianhealth.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Call for schedule"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Rincon Band of Luiseno Indians. Satellite services via Indian Health Council. Full services available at main IHC campus in Valley Center. Rincon Government Center used for community health outreach."
+  },
+  {
+    "id": "add-032",
+    "name": "Viejas Health Services (SIHC Satellite)",
+    "type": "tribal_638",
+    "lat": 32.8447,
+    "lng": -116.7844,
+    "address": "5000 Willows Road, Alpine, CA 91901",
+    "phone": "(619) 445-1188",
+    "website": "https://www.sihc.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Viejas Band of Kumeyaay Indians. SIHC offices in Viejas Outlet Center area. Full health services at main SIHC Alpine clinic (4058 Willows Road), approximately 1 mile from Viejas Casino."
+  },
+  {
+    "id": "add-033",
+    "name": "Enterprise Rancheria Health Programs",
+    "type": "tribal_638",
+    "lat": 39.524,
+    "lng": -121.555,
+    "address": "2133 Monte Vista Avenue, Oroville, CA 95966",
+    "phone": "(530) 532-9214",
+    "website": "https://www.enterpriserancheria.org/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Enterprise Rancheria of Maidu Indians of California. Tribal health department at Oroville office. Primary medical/dental services through Feather River Tribal Health."
+  },
+  {
+    "id": "add-034",
+    "name": "Mechoopda Indian Tribe Health Department",
+    "type": "tribal_638",
+    "lat": 39.7285,
+    "lng": -121.8375,
+    "address": "125 Mission Ranch Boulevard, Chico, CA 95926",
+    "phone": "(530) 899-8922",
+    "website": "https://www.mechoopda-nsn.gov/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "substance_abuse",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Mechoopda Indian Tribe of Chico Rancheria. Operates community health/behavioral health programs. Primary medical/dental services through Feather River Tribal Health or Chapa-De."
+  },
+  {
+    "id": "add-035",
+    "name": "Berry Creek Rancheria Tribal Health",
+    "type": "tribal_638",
+    "lat": 39.5169,
+    "lng": -121.5461,
+    "address": "5 Tyme Way, Oroville, CA 95966",
+    "phone": "(530) 534-3859",
+    "website": "https://www.berrycreekrancheria.com/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Berry Creek Rancheria of Tyme Maidu Indians. Tribal office administers health referrals and behavioral health. Full medical/dental through Feather River Tribal Health."
+  },
+  {
+    "id": "add-036",
+    "name": "Wilton Rancheria Health Services",
+    "type": "tribal_638",
+    "lat": 38.4088,
+    "lng": -121.3716,
+    "address": "9728 Kent Street, Elk Grove, CA 95624",
+    "phone": "(916) 683-6000",
+    "website": "https://wiltonrancheria-nsn.gov/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "substance_abuse",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Wilton Rancheria operates health/social services from Elk Grove office. Primary medical through Sacramento Native American Health Center. Recently restored tribe, expanding services."
+  },
+  {
+    "id": "add-037",
+    "name": "Ione Band of Miwok Indians Health Program",
+    "type": "tribal_638",
+    "lat": 38.353,
+    "lng": -120.9332,
+    "address": "9252 Bush Street, Suite 2, Plymouth, CA 95669",
+    "phone": "(209) 245-5800",
+    "website": "https://www.ionemiwok.net/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Ione Band of Miwok Indians. Small tribe in Amador County. Health programs administered from Plymouth office. Members access medical services through Chapa-De or Sacramento NAHC."
+  },
+  {
+    "id": "add-038",
+    "name": "Buena Vista Rancheria Health Services",
+    "type": "tribal_638",
+    "lat": 38.349,
+    "lng": -120.9343,
+    "address": "1418 20th Street, Suite 200, Sacramento, CA 95811",
+    "phone": "(916) 491-0011",
+    "website": "https://www.buenavistatribe.com/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Buena Vista Rancheria of Me-Wuk Indians (Ione area). Administrative office in Sacramento. Health services coordinated through Sacramento Native American Health Center and IHS referrals."
+  },
+  {
+    "id": "add-039",
+    "name": "Picayune Rancheria Tribal Health Program",
+    "type": "tribal_638",
+    "lat": 37.3264,
+    "lng": -119.6492,
+    "address": "49260 Chapel Hill Drive, Oakhurst, CA 93644",
+    "phone": "(559) 412-5590",
+    "website": "https://chukchansi-nsn.gov/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "substance_abuse",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Picayune Rancheria of Chukchansi Indians. Operates behavioral health and social services from Oakhurst office. Medical/dental through Central Valley Indian Health."
+  },
+  {
+    "id": "add-040",
+    "name": "Big Sandy Rancheria Health Services",
+    "type": "tribal_638",
+    "lat": 37.079,
+    "lng": -119.4878,
+    "address": "37387 Auberry Mission Road, Auberry, CA 93602",
+    "phone": "(559) 855-4003",
+    "website": "https://www.bigsandyrancheria.com/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Big Sandy Rancheria of Western Mono Indians. Tribal office in Auberry handles health referrals. Medical/dental through Central Valley Indian Health (Prather or Clovis clinics)."
+  },
+  {
+    "id": "add-041",
+    "name": "Cold Springs Rancheria Health Programs",
+    "type": "tribal_638",
+    "lat": 36.9592,
+    "lng": -119.343,
+    "address": "32861 Sycamore Road, Suite 300, Tollhouse, CA 93667",
+    "phone": "(559) 855-5043",
+    "website": "https://coldspringsrancheria.gov/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Cold Springs Rancheria of Mono Indians in Tollhouse (eastern Fresno County). Tribal health programs. Medical/dental through Central Valley Indian Health (Prather clinic)."
+  },
+  {
+    "id": "add-042",
+    "name": "Washoe Tribe Woodfords Community Health",
+    "type": "tribal_638",
+    "lat": 38.7715,
+    "lng": -119.8282,
+    "address": "96 Washoe Boulevard, Markleeville, CA 96120",
+    "phone": "(775) 265-8622",
+    "website": "https://www.washoetribalhealth.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Washoe Tribe of Nevada & California, Woodfords/Hung-A-Lel-Ti community in Alpine County. Main Washoe Tribal Health Center in Gardnerville, NV (1559 Watasheamu Rd). Community health worker services on CA side."
+  },
+  {
+    "id": "add-043",
+    "name": "Pauma Band Health Services (Indian Health Council)",
+    "type": "tribal_638",
+    "lat": 33.3222,
+    "lng": -116.9808,
+    "address": "P.O. Box 369, Pauma Valley, CA 92061",
+    "phone": "(760) 742-1289",
+    "website": "https://www.indianhealth.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Pauma Band of Luiseno Mission Indians. Health services through Indian Health Council (Valley Center). Pauma Valley reservation community health programs."
+  },
+  {
+    "id": "add-044",
+    "name": "La Jolla Band Health Services (Indian Health Council)",
+    "type": "tribal_638",
+    "lat": 33.282,
+    "lng": -116.862,
+    "address": "22000 Highway 76, Pauma Valley, CA 92061",
+    "phone": "(760) 742-3771",
+    "website": "https://www.indianhealth.com/",
+    "ihsArea": "california",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "La Jolla Band of Luiseno Indians. Health services through Indian Health Council. La Jolla Reservation off Highway 76 in north San Diego County."
+  },
+  {
+    "id": "add-045",
+    "name": "San Pasqual Band Health Services",
+    "type": "tribal_638",
+    "lat": 33.1308,
+    "lng": -116.9564,
+    "address": "27459 Valley Center Road, Valley Center, CA 92082",
+    "phone": "(760) 749-3200",
+    "website": "https://www.sanpasqualtribe.org/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "San Pasqual Band of Diegueno Mission Indians. Tribal health department coordinates services. Medical/dental through Indian Health Council (Valley Center)."
+  },
+  {
+    "id": "add-046",
+    "name": "Barona Health Services (via SIHC)",
+    "type": "tribal_638",
+    "lat": 32.9114,
+    "lng": -116.8679,
+    "address": "1095 Barona Road, Lakeside, CA 92040",
+    "phone": "(619) 443-6612",
+    "website": "https://www.barona-nsn.gov/",
+    "ihsArea": "california",
+    "services": [
+      "behavioral_health",
+      "emergency_medical"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "behavioral_health": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "tribal_health_department",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid"
+    ],
+    "dataSource": "IHS California Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Barona Band of Mission Indians. Tribal offices on reservation in Lakeside. Medical/dental through Southern Indian Health Council (Alpine). Barona also operates ambulance service: 619-390-2794."
+  },
+  {
+    "id": "add-047",
+    "name": "Delaware Tribe of Indians Wellness Center",
+    "type": "tribal_638",
+    "lat": 36.7473,
+    "lng": -95.9808,
+    "address": "5100 Tuxedo Blvd, Bartlesville, OK 74006",
+    "phone": "(918) 337-6590",
+    "website": "https://delawaretribe.org/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "elder_care",
+      "diabetes_prevention"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Delaware Tribe of Indians wellness and health services campus in Bartlesville"
+  },
+  {
+    "id": "add-048",
+    "name": "Wyandotte Nation Bearskin Health & Wellness Center",
+    "type": "tribal_638",
+    "lat": 36.8362,
+    "lng": -94.7218,
+    "address": "1 Turtle Drive, Wyandotte, OK 74370",
+    "phone": "(918) 678-2282",
+    "website": "https://wyandotte-nation.org/services/healthcare/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "diabetes_prevention",
+      "fitness"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 5:00 AM - 9:00 PM, Sat 8:00 AM - 2:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Wyandotte Nation comprehensive health and wellness facility serving enrolled tribal members"
+  },
+  {
+    "id": "add-049",
+    "name": "Northeastern Tribal Health System",
+    "type": "tribal_638",
+    "lat": 36.8646,
+    "lng": -94.8854,
+    "address": "7600 S Highway 69A, Miami, OK 74354",
+    "phone": "(918) 542-1655",
+    "website": "https://nthsclinic.com/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "optometry",
+      "behavioral_health",
+      "laboratory",
+      "radiology"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Consortium health center serving multiple NE Oklahoma tribes including Miami, Peoria, Ottawa, Modoc, and others. NPI 1871522532."
+  },
+  {
+    "id": "add-050",
+    "name": "Peoria Tribe Health & Human Services",
+    "type": "tribal_638",
+    "lat": 36.8895,
+    "lng": -94.8773,
+    "address": "118 S Eight Tribes Trail, Miami, OK 74354",
+    "phone": "(918) 540-2535",
+    "website": "https://peoriatribe.com/peoriatribehealth/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "substance_abuse",
+      "health_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Peoria Tribe of Indians of Oklahoma health and human services department"
+  },
+  {
+    "id": "add-051",
+    "name": "Ottawa Tribe Community Health Program",
+    "type": "tribal_638",
+    "lat": 36.8871,
+    "lng": -94.8785,
+    "address": "13 S 69A, Miami, OK 74354",
+    "phone": "(918) 540-1536",
+    "website": "https://www.ottawatribe.org/community-health-program.html",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "health_education",
+      "referral_services"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Ottawa Tribe of Oklahoma community health program providing health information, referrals, and resources"
+  },
+  {
+    "id": "add-052",
+    "name": "Modoc Nation Health Services",
+    "type": "tribal_638",
+    "lat": 36.8882,
+    "lng": -94.8712,
+    "address": "22 N Eight Tribes Trail, Miami, OK 74354",
+    "phone": "(918) 542-1190",
+    "website": "https://modocnationhealthservices.com/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "substance_abuse",
+      "therapy"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Modoc Nation health services including behavioral health and substance abuse programs in Miami OK"
+  },
+  {
+    "id": "add-053",
+    "name": "Eastern Shawnee Tribe Health Program",
+    "type": "tribal_638",
+    "lat": 36.8422,
+    "lng": -94.6097,
+    "address": "127 W Oneida Street, Seneca, MO 64865",
+    "phone": "(918) 666-2435",
+    "website": "https://www.estoo-nsn.gov/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "elder_care",
+      "substance_abuse"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Eastern Shawnee Tribe of Oklahoma tribal health programs headquartered in Seneca MO"
+  },
+  {
+    "id": "add-054",
+    "name": "Seneca-Cayuga Nation Health & Wellness",
+    "type": "tribal_638",
+    "lat": 36.5939,
+    "lng": -94.7698,
+    "address": "23701 S 655 Road, Grove, OK 74344",
+    "phone": "(918) 791-6051",
+    "website": "https://sctribe.com/services",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "substance_abuse",
+      "fitness",
+      "community_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Seneca-Cayuga Nation wellness center and health services in Grove OK"
+  },
+  {
+    "id": "add-055",
+    "name": "Tonkawa Tribe Health Services",
+    "type": "tribal_638",
+    "lat": 36.6779,
+    "lng": -97.3099,
+    "address": "1 Rush Buffalo Road, Tonkawa, OK 74653",
+    "phone": "(580) 628-2561",
+    "website": "https://tonkawatribe.com/programs-services/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "substance_abuse",
+      "elder_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Tonkawa Tribe of Oklahoma health services including community health representative program"
+  },
+  {
+    "id": "add-056",
+    "name": "Otoe-Missouria Tribe Health Services",
+    "type": "tribal_638",
+    "lat": 36.481,
+    "lng": -97.1495,
+    "address": "8151 Highway 177, Red Rock, OK 74651",
+    "phone": "(580) 723-4466",
+    "website": "https://www.omtribe.org/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "substance_abuse",
+      "community_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Thu 9:00 AM - 3:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Otoe-Missouria Tribe health services center in Red Rock OK. Clinic closed 12-1 PM for lunch."
+  },
+  {
+    "id": "add-057",
+    "name": "Kanza Health Clinic (Kaw Nation)",
+    "type": "tribal_638",
+    "lat": 36.8809,
+    "lng": -97.0147,
+    "address": "3151 E River Road, Newkirk, OK 74647",
+    "phone": "(580) 362-1039",
+    "website": "http://www.kanzaclinic.com/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "optometry",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Kaw Nation comprehensive health clinic offering medical, dental, pharmacy, and behavioral health services. Appointment only, no walk-ins."
+  },
+  {
+    "id": "add-058",
+    "name": "Caddo Nation Health Clinic",
+    "type": "tribal_638",
+    "lat": 35.3312,
+    "lng": -98.3373,
+    "address": "117 Memorial Lane, Binger, OK 73009",
+    "phone": "(405) 656-2344",
+    "website": "https://mycaddonation.com/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "health_education",
+      "elder_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Caddo Nation of Oklahoma tribal health clinic providing CHR services, appointments, and medication management"
+  },
+  {
+    "id": "add-059",
+    "name": "Fort Sill Apache Tribe Health Program",
+    "type": "tribal_638",
+    "lat": 34.9073,
+    "lng": -98.364,
+    "address": "43187 US Highway 281, Apache, OK 73006",
+    "phone": "(580) 588-2298",
+    "website": "https://fortsillapache-nsn.gov/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "elder_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Fort Sill Apache Tribe tribal health program in Apache OK"
+  },
+  {
+    "id": "add-060",
+    "name": "United Keetoowah Band Health & Human Services",
+    "type": "tribal_638",
+    "lat": 35.9051,
+    "lng": -94.9743,
+    "address": "18419 W Keetowah Circle, Tahlequah, OK 74465",
+    "phone": "(918) 871-2861",
+    "website": "https://www.ukb-nsn.gov/human-services",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health",
+      "elder_care",
+      "health_education"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:30 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "United Keetoowah Band of Cherokee Indians health and human services department"
+  },
+  {
+    "id": "add-061",
+    "name": "Cherokee Nation A-Mo Health Center (Salina)",
+    "type": "tribal_638",
+    "lat": 36.2926,
+    "lng": -94.9534,
+    "address": "900 N Owen Walters Blvd, Salina, OK 74365",
+    "phone": "(918) 434-8500",
+    "website": "https://health.cherokee.org/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "pharmacy",
+      "laboratory",
+      "radiology"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Cherokee Nation Health Services",
+    "dataSourceNotes": "Cherokee Nation satellite outpatient health center in Salina serving eastern Cherokee communities"
+  },
+  {
+    "id": "add-062",
+    "name": "Muscogee Nation Sapulpa Indian Health Center",
+    "type": "tribal_638",
+    "lat": 35.9987,
+    "lng": -96.1026,
+    "address": "1125 E Cleveland, Sapulpa, OK 74066",
+    "phone": "(918) 224-9310",
+    "website": "https://www.creekhealth.org/clinics/sapulpa-indian-health-center/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory",
+      "optometry"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Muscogee Nation Department of Health",
+    "dataSourceNotes": "Muscogee Nation full-service satellite clinic in Sapulpa"
+  },
+  {
+    "id": "add-063",
+    "name": "Muscogee Nation Eufaula Indian Health Center",
+    "type": "tribal_638",
+    "lat": 35.2773,
+    "lng": -95.5931,
+    "address": "500 Eunice Burns Road, Eufaula, OK 74432",
+    "phone": "(918) 689-2547",
+    "website": "https://www.creekhealth.org/clinics/eufaula-indian-health-center/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 7:30 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Muscogee Nation Department of Health",
+    "dataSourceNotes": "Muscogee Nation satellite health center serving Eufaula and McIntosh County area"
+  },
+  {
+    "id": "add-064",
+    "name": "Muscogee Nation Okemah Indian Health Center",
+    "type": "tribal_638",
+    "lat": 35.4328,
+    "lng": -96.2839,
+    "address": "1800 E Coplin Road, Okemah, OK 74859",
+    "phone": "(918) 623-1424",
+    "website": "https://www.creekhealth.org/clinics/okemah-indian-health-center/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Muscogee Nation Department of Health",
+    "dataSourceNotes": "Muscogee Nation satellite clinic serving Okemah and Okfuskee County communities"
+  },
+  {
+    "id": "add-065",
+    "name": "Muscogee Nation Koweta Indian Health Center",
+    "type": "tribal_638",
+    "lat": 35.9531,
+    "lng": -95.649,
+    "address": "31870 E Highway 51, Coweta, OK 74429",
+    "phone": "(918) 279-3200",
+    "website": "https://www.creekhealth.org/clinics/koweta-indian-health-center/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Muscogee Nation Department of Health",
+    "dataSourceNotes": "Muscogee Nation satellite health center in Coweta serving Wagoner County area"
+  },
+  {
+    "id": "add-066",
+    "name": "Muscogee Nation Wetumka Clinic",
+    "type": "tribal_638",
+    "lat": 35.2375,
+    "lng": -96.2399,
+    "address": "325 S Washita, Wetumka, OK 74883",
+    "phone": "(405) 452-1300",
+    "website": "https://www.creekhealth.org/clinics/wetumka-clinic/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "community_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Muscogee Nation Department of Health",
+    "dataSourceNotes": "Muscogee Nation satellite clinic in Wetumka serving Hughes County area"
+  },
+  {
+    "id": "add-067",
+    "name": "Choctaw Nation Atoka Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.3861,
+    "lng": -96.1487,
+    "address": "1203 W Liberty Road, Atoka, OK 74525",
+    "phone": "(580) 889-1981",
+    "website": "https://www.choctawnation.com/about/health/facilities/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Choctaw Nation Health Services Authority",
+    "dataSourceNotes": "Choctaw Nation satellite health clinic serving Atoka County"
+  },
+  {
+    "id": "add-068",
+    "name": "Choctaw Nation Hugo Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.011,
+    "lng": -95.5109,
+    "address": "410 N M Street, Hugo, OK 74743",
+    "phone": "(580) 326-7561",
+    "website": "https://www.choctawnation.com/about/health/facilities/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Choctaw Nation Health Services Authority",
+    "dataSourceNotes": "Choctaw Nation satellite health clinic serving Choctaw County and Hugo area"
+  },
+  {
+    "id": "add-069",
+    "name": "Choctaw Nation Stigler Health Clinic",
+    "type": "tribal_638",
+    "lat": 35.2537,
+    "lng": -95.1225,
+    "address": "2204 E Main Street, Stigler, OK 74462",
+    "phone": "(918) 967-9200",
+    "website": "https://www.choctawnation.com/about/health/facilities/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Choctaw Nation Health Services Authority",
+    "dataSourceNotes": "Choctaw Nation satellite health clinic serving Haskell County and Stigler area"
+  },
+  {
+    "id": "add-070",
+    "name": "Choctaw Nation McAlester Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.9265,
+    "lng": -95.7614,
+    "address": "1127 S George Nigh Expressway, McAlester, OK 74501",
+    "phone": "(918) 423-8440",
+    "website": "https://www.choctawnation.com/about/health/facilities/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory",
+      "radiology"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Choctaw Nation Health Services Authority",
+    "dataSourceNotes": "Choctaw Nation satellite health clinic serving Pittsburg County and McAlester area"
+  },
+  {
+    "id": "add-071",
+    "name": "Choctaw Nation Broken Bow Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.0293,
+    "lng": -94.738,
+    "address": "1300 E Martin Luther King Drive, Broken Bow, OK 74728",
+    "phone": "(580) 208-2204",
+    "website": "https://www.choctawnation.com/about/health/facilities/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Choctaw Nation Health Services Authority",
+    "dataSourceNotes": "Choctaw Nation Ruby Choate Health Clinic in Broken Bow serving McCurtain County"
+  },
+  {
+    "id": "add-072",
+    "name": "Choctaw Nation Idabel Health Clinic",
+    "type": "tribal_638",
+    "lat": 33.8996,
+    "lng": -94.8247,
+    "address": "902 E Lincoln Road, Idabel, OK 74745",
+    "phone": "(580) 286-2600",
+    "website": "https://www.choctawnation.com/about/health/facilities/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Choctaw Nation Health Services Authority",
+    "dataSourceNotes": "Choctaw Nation satellite health clinic in Idabel serving southern McCurtain County"
+  },
+  {
+    "id": "add-073",
+    "name": "Chickasaw Nation Ardmore Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.199,
+    "lng": -97.1364,
+    "address": "2510 Chickasaw Blvd, Ardmore, OK 73401",
+    "phone": "(580) 222-2950",
+    "website": "https://www.chickasaw.net/Our-Nation/Locations/Ardmore-Health-Clinic",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory",
+      "radiology"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Chickasaw Nation Health System",
+    "dataSourceNotes": "Chickasaw Nation satellite health clinic in Ardmore serving Carter County"
+  },
+  {
+    "id": "add-074",
+    "name": "Chickasaw Nation Purcell Health Clinic",
+    "type": "tribal_638",
+    "lat": 34.9827,
+    "lng": -97.3641,
+    "address": "1438 Hardcastle Blvd, Purcell, OK 73080",
+    "phone": "(405) 527-4700",
+    "website": "https://www.chickasaw.net/Our-Nation/Locations/Purcell-Health-Clinic",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Chickasaw Nation Health System",
+    "dataSourceNotes": "Chickasaw Nation satellite health clinic in Purcell serving McClain County"
+  },
+  {
+    "id": "add-075",
+    "name": "White Cloud Health Center (Iowa Tribe of KS & NE)",
+    "type": "tribal_638",
+    "lat": 39.9772,
+    "lng": -95.2946,
+    "address": "3349 B Thrasher Road, White Cloud, KS 66094",
+    "phone": "(785) 595-3450",
+    "website": "https://whitecloudhealthcenter.org/",
+    "ihsArea": "oklahoma_city",
+    "services": [
+      "primary_care",
+      "pharmacy",
+      "diabetes_prevention",
+      "health_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Oklahoma City / Tribal Health Program Directory",
+    "dataSourceNotes": "Title V Compact health center operated by Iowa Tribe of Kansas and Nebraska since 2019, also serving Sac and Fox Nation of Missouri"
+  },
+  {
+    "id": "add-076",
+    "name": "Shinnecock Health Center",
+    "type": "tribal_638",
+    "lat": 40.8854,
+    "lng": -72.4522,
+    "address": "101 Church Street, Southampton, NY 11969",
+    "phone": "(631) 287-6474",
+    "website": "https://www.shinnecock-nsn.gov/shinnecock-health-center",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Tue, Thu-Fri 9:00 AM - 5:00 PM, Wed 9:00 AM - 7:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Shinnecock Indian Nation health center providing medical, behavioral health, and dental care. Appointment only. Services restricted to reservation residents."
+  },
+  {
+    "id": "add-077",
+    "name": "Onondaga Nation Health Center",
+    "type": "tribal_638",
+    "lat": 42.9711,
+    "lng": -76.1226,
+    "address": "249 Route 11A, Nedrow, NY 13120",
+    "phone": "(315) 469-6449",
+    "website": "https://www.onondaganation.org/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Onondaga Nation health center serving the Onondaga territory south of Syracuse NY"
+  },
+  {
+    "id": "add-078",
+    "name": "Tuscarora Nation Health Center",
+    "type": "tribal_638",
+    "lat": 43.1717,
+    "lng": -79.0006,
+    "address": "5226 Walmore Road, Lewiston, NY 14092",
+    "phone": "(716) 297-0310",
+    "website": "https://tuscaroranation.org/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 7:30 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Lockport Service Unit",
+    "dataSourceNotes": "Tuscarora Nation health center affiliated with Niagara Falls Memorial Medical Center, part of IHS Lockport Service Unit"
+  },
+  {
+    "id": "add-079",
+    "name": "Tonawanda Seneca Family Care",
+    "type": "tribal_638",
+    "lat": 43.0208,
+    "lng": -78.4965,
+    "address": "372 Bloomingdale Road Suite 2, Akron, NY 14001",
+    "phone": "(585) 542-5230",
+    "website": "https://sni.org/health-services/health-centers/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "family_medicine"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Tonawanda Seneca family care clinic affiliated with Rochester Regional Health, serving Tonawanda Band of Seneca"
+  },
+  {
+    "id": "add-080",
+    "name": "Jena Band of Choctaw Indians Health Center",
+    "type": "tribal_638",
+    "lat": 31.6697,
+    "lng": -92.1463,
+    "address": "1052 Chanaha Hina Street, Trout, LA 71371",
+    "phone": "(318) 992-2727",
+    "website": "https://health.jenachoctaw.org/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Jena Band of Choctaw Indians tribal health center in Trout LA providing comprehensive healthcare services"
+  },
+  {
+    "id": "add-081",
+    "name": "MOWA Band of Choctaw Indians Health Clinic",
+    "type": "tribal_638",
+    "lat": 31.0769,
+    "lng": -88.0183,
+    "address": "1080 Red Fox Road, Mount Vernon, AL 36560",
+    "phone": "(251) 829-9032",
+    "website": "https://www.mowachoctawindians.com/clinic-health",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "community_health",
+      "health_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Sat-Sun 9:00 AM - 3:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "MOWA Band of Choctaw Indians community health clinic in Mount Vernon AL"
+  },
+  {
+    "id": "add-082",
+    "name": "Monacan Health Center",
+    "type": "tribal_638",
+    "lat": 37.4279,
+    "lng": -79.1065,
+    "address": "108 Dixie Airport Road, Madison Heights, VA 24572",
+    "phone": "(804) 334-0756",
+    "website": "https://www.monacannation.gov/medical.html",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "dental",
+      "optometry",
+      "behavioral_health",
+      "audiology"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Monacan Service Unit",
+    "dataSourceNotes": "13,000 sq ft ambulatory outpatient facility opened 2023 serving Monacan Indian Nation and other federally recognized AI/AN. First Native-owned health facility in Virginia."
+  },
+  {
+    "id": "add-083",
+    "name": "Mid-Atlantic Tribal Health Center",
+    "type": "tribal_638",
+    "lat": 37.3446,
+    "lng": -77.0644,
+    "address": "2401 Roxbury Road, Charles City, VA 23030",
+    "phone": "(804) 622-0011",
+    "website": "https://www.ihs.gov/Nashville/healthcarefacilities/mid-atlantic/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "pharmacy",
+      "referral_services"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Mid-Atlantic Service Unit",
+    "dataSourceNotes": "IHS Nashville Mid-Atlantic service unit serving 6 Virginia tribes: Pamunkey, Chickahominy, Chickahominy Eastern Division, Upper Mattaponi, Rappahannock, and Nansemond"
+  },
+  {
+    "id": "add-084",
+    "name": "Upper Mattaponi Tribal Health Clinic",
+    "type": "tribal_638",
+    "lat": 37.6943,
+    "lng": -77.0164,
+    "address": "27 Commerce Lane, King William, VA 23086",
+    "phone": "(804) 769-2110",
+    "website": "https://umitribe.org/programs-services/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "community_health",
+      "health_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 8:00 PM, Sat-Sun 10:00 AM - 4:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Upper Mattaponi Indian Tribe health clinic opened 2021 in King William VA. Federally recognized 2018."
+  },
+  {
+    "id": "add-085",
+    "name": "Lumbee Tribe Health & Human Services",
+    "type": "tribal_638",
+    "lat": 34.6809,
+    "lng": -79.1951,
+    "address": "6984 NC Highway 711 W, Pembroke, NC 28372",
+    "phone": "(910) 521-2433",
+    "website": "https://www.lumbeetribe.com/healthhumanservices",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "community_health",
+      "substance_abuse",
+      "behavioral_health",
+      "elder_care"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Lumbee Tribe health department in Pembroke NC. Largest state-recognized tribe east of Mississippi with 55,000+ members."
+  },
+  {
+    "id": "add-086",
+    "name": "Haliwa-Saponi Tribal Health Program",
+    "type": "tribal_638",
+    "lat": 36.2462,
+    "lng": -77.8615,
+    "address": "39021 NC Highway 561, Hollister, NC 27844",
+    "phone": "(252) 586-4017",
+    "website": "https://www.haliwa-saponi.gov",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "community_health",
+      "health_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Haliwa-Saponi Indian Tribe health program at Chief W.R. Richardson Tribal Government Complex in Hollister NC"
+  },
+  {
+    "id": "add-087",
+    "name": "Coharie Tribal Health Services",
+    "type": "tribal_638",
+    "lat": 35.0178,
+    "lng": -78.3413,
+    "address": "7531 N US Highway 421, Clinton, NC 28328",
+    "phone": "(910) 564-6909",
+    "website": "https://coharietribe.org/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "community_health",
+      "health_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Coharie Intra-Tribal Council health services in Clinton NC providing health, social services, and housing assistance"
+  },
+  {
+    "id": "add-088",
+    "name": "Waccamaw Siouan Tribal Health Program",
+    "type": "tribal_638",
+    "lat": 34.282,
+    "lng": -78.387,
+    "address": "7239 Old Lake Road, Bolton, NC 28423",
+    "phone": "(910) 665-8778",
+    "website": "https://waccamaw-siouan.org/",
+    "ihsArea": "nashville",
+    "services": [
+      "primary_care",
+      "community_health",
+      "health_education"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Nashville / Tribal Health Program Directory",
+    "dataSourceNotes": "Waccamaw Siouan Tribe health and social services program in Bolton NC, Bladen and Columbus counties"
+  },
+  {
+    "id": "add-089",
+    "name": "Elbowoods Memorial Health Center (MHA Nation)",
+    "type": "tribal_638",
+    "lat": 47.979,
+    "lng": -102.4864,
+    "address": "1251 Elbowoods Loop, New Town, ND 58763",
+    "phone": "(701) 627-7755",
+    "website": "https://elbowoodshealth.com/",
+    "ihsArea": "great_plains",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "emergency_care",
+      "laboratory",
+      "radiology",
+      "optometry"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "hospital",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Great Plains / MHA Nation Health Administration",
+    "dataSourceNotes": "Three Affiliated Tribes (Mandan, Hidatsa, Arikara) major health center on Fort Berthold Reservation. Comprehensive services including ER. Closed 12-1 PM for lunch."
+  },
+  {
+    "id": "add-090",
+    "name": "Omaha Tribe Carl T. Curtis Health Education Center",
+    "type": "tribal_638",
+    "lat": 42.1143,
+    "lng": -96.3615,
+    "address": "100 Indian Hills Drive, Macy, NE 68039",
+    "phone": "(402) 837-5381",
+    "website": "https://www.omahatribe.com/",
+    "ihsArea": "great_plains",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Great Plains / Tribal Health Program Directory",
+    "dataSourceNotes": "Omaha Tribe health center in Macy NE on the Omaha Reservation"
+  },
+  {
+    "id": "add-091",
+    "name": "Santee Health & Wellness Center",
+    "type": "tribal_638",
+    "lat": 42.7583,
+    "lng": -98.3485,
+    "address": "110 S Visiting Eagle Street, Niobrara, NE 68760",
+    "phone": "(402) 857-2300",
+    "website": "https://www.santeehealthandwellness.com/",
+    "ihsArea": "great_plains",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Great Plains / Tribal Health Program Directory",
+    "dataSourceNotes": "Santee Sioux Nation tribal health center in Niobrara NE on the Santee Reservation"
+  },
+  {
+    "id": "add-092",
+    "name": "Ponca Hills Health & Wellness Center (Norfolk)",
+    "type": "tribal_638",
+    "lat": 42.0287,
+    "lng": -97.4272,
+    "address": "1800 Syracuse Avenue, Norfolk, NE 68701",
+    "phone": "(402) 371-8780",
+    "website": "https://poncatribe-ne.gov/services/health-services/",
+    "ihsArea": "great_plains",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "laboratory"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Thu 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Great Plains / Tribal Health Program Directory",
+    "dataSourceNotes": "Ponca Tribe of Nebraska main health and wellness center in Norfolk NE"
+  },
+  {
+    "id": "add-093",
+    "name": "Ponca Tribe of Nebraska Health Services (Niobrara)",
+    "type": "tribal_638",
+    "lat": 42.7542,
+    "lng": -98.032,
+    "address": "88915 521 Avenue, Niobrara, NE 68760",
+    "phone": "(402) 857-3519",
+    "website": "https://poncatribe-ne.gov/services/health-services/",
+    "ihsArea": "great_plains",
+    "services": [
+      "primary_care",
+      "community_health",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": false,
+    "telehealthServices": [],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Great Plains / Tribal Health Program Directory",
+    "dataSourceNotes": "Ponca Tribe of Nebraska satellite health office in Niobrara near Santee Reservation"
+  },
+  {
+    "id": "add-094",
+    "name": "Cook Inlet Tribal Council Health Programs",
+    "type": "tribal_638",
+    "lat": 61.2074,
+    "lng": -149.812,
+    "address": "3600 San Jeronimo Dr, Anchorage, AK 99508",
+    "phone": "(907) 793-3600",
+    "website": "https://citci.org/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "substance_abuse",
+      "wellness"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programs"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Alaska / Tribal Health Program Directory",
+    "dataSourceNotes": "CITC provides recovery, behavioral health, and wellness services for Cook Inlet region Alaska Natives. Separate from SCF primary care."
+  },
+  {
+    "id": "add-095",
+    "name": "Eklutna Community Clinic",
+    "type": "tribal_638",
+    "lat": 61.4613,
+    "lng": -149.363,
+    "address": "26341 Eklutna Village Rd, Chugiak, AK 99567",
+    "phone": "(907) 631-6120",
+    "website": "https://www.southcentralfoundation.com/services/primary-care-clinics/eklutna-village-clinic/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "immunizations"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "village_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Alaska / Southcentral Foundation",
+    "dataSourceNotes": "SCF-operated village clinic serving Native Village of Eklutna. Closed noon-1 PM for lunch."
+  },
+  {
+    "id": "add-096",
+    "name": "Chickaloon Village Life House Clinic",
+    "type": "tribal_638",
+    "lat": 61.7972,
+    "lng": -148.457,
+    "address": "11495 N Callison St, Sutton, AK 99674",
+    "phone": "(907) 745-0704",
+    "website": "https://www.chickaloon-nsn.gov/health-social-services/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "dental"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programs"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 9:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Alaska / Tribal Health Program Directory",
+    "dataSourceNotes": "Chickaloon Village Traditional Council Life House Clinic. Matanuska-Susitna Valley area."
+  },
+  {
+    "id": "add-097",
+    "name": "Dena'ina Wellness Center (Kenaitze Indian Tribe)",
+    "type": "tribal_638",
+    "lat": 60.5544,
+    "lng": -151.258,
+    "address": "508 Upland St, Kenai, AK 99611",
+    "phone": "(907) 335-7500",
+    "website": "https://www.kenaitze.org/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "optometry",
+      "pharmacy",
+      "lab"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "elder_programs"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Alaska / Tribal Health Program Directory",
+    "dataSourceNotes": "FQHC operated by Kenaitze Indian Tribe on Kenai Peninsula. Full-service health center."
+  },
+  {
+    "id": "add-098",
+    "name": "Ninilchik Community Clinic",
+    "type": "tribal_638",
+    "lat": 60.0489,
+    "lng": -151.667,
+    "address": "15765 Kingsley Rd, Ninilchik, AK 99639",
+    "phone": "(907) 567-3390",
+    "website": "https://www.ninilchiktribe-nsn.gov/health/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "dental",
+      "pharmacy"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Alaska / Tribal Health Program Directory",
+    "dataSourceNotes": "Ninilchik Traditional Council operates clinic serving Ninilchik, Anchor Point, and Homer areas."
+  },
+  {
+    "id": "add-099",
+    "name": "Seldovia Village Tribe Health & Wellness",
+    "type": "tribal_638",
+    "lat": 59.4394,
+    "lng": -151.713,
+    "address": "240 Fulmore Ave, Seldovia, AK 99663",
+    "phone": "(907) 435-3262",
+    "website": "https://svthw.org/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "dental",
+      "wellness"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 9:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Alaska / Tribal Health Program Directory",
+    "dataSourceNotes": "SVT Health & Wellness, a division of Seldovia Village Tribe. Remote Kachemak Bay community."
+  },
+  {
+    "id": "add-100",
+    "name": "Port Graham Anesia Anahonak Moonin Clinic",
+    "type": "tribal_638",
+    "lat": 59.3487,
+    "lng": -151.831,
+    "address": "63998 Graham Rd Unit 3, Port Graham, AK 99603",
+    "phone": "(907) 284-2241",
+    "website": "https://www.chugachmiut.org/health-social-services/clinics/port-graham/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "community_health_aide",
+      "emergency"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 9:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "village_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Alaska / Chugachmiut",
+    "dataSourceNotes": "Chugachmiut-operated community health aide clinic in Port Graham village on Kenai Peninsula."
+  },
+  {
+    "id": "add-101",
+    "name": "Nanwalek Village Clinic",
+    "type": "tribal_638",
+    "lat": 59.3525,
+    "lng": -151.918,
+    "address": "1 Maqiq St, Nanwalek, AK 99603",
+    "phone": "(907) 281-2250",
+    "website": "https://www.chugachmiut.org/health-social-services/clinics/nanwalek/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "community_health_aide",
+      "emergency"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 9:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "village_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Alaska / Chugachmiut",
+    "dataSourceNotes": "Chugachmiut-operated community health aide clinic in Nanwalek (English Bay) village. Accessible by boat or air only."
+  },
+  {
+    "id": "add-102",
+    "name": "Chugachmiut Regional Health Center (Seward)",
+    "type": "tribal_638",
+    "lat": 60.1042,
+    "lng": -149.443,
+    "address": "2035 Seward Hwy, Seward, AK 99664",
+    "phone": "(907) 224-3490",
+    "website": "https://www.chugachmiut.org/health-social-services/clinics/seward/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "lab"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programs"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Alaska / Chugachmiut",
+    "dataSourceNotes": "Formerly North Star Health Clinic. Relocated to new purpose-built regional health center. Serves Qutekcak and other Chugach region tribes."
+  },
+  {
+    "id": "add-103",
+    "name": "Valdez Native Tribe Health Clinic",
+    "type": "tribal_638",
+    "lat": 61.1308,
+    "lng": -146.348,
+    "address": "1750 Eiger Dr, Valdez, AK 99686",
+    "phone": "(907) 835-4951",
+    "website": "https://www.valdeznativetribe.org/departments/ihs-medical/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Alaska / Tribal Health Program Directory",
+    "dataSourceNotes": "Valdez Native Tribe operates IHS medical services. Part of Chugachmiut consortium."
+  },
+  {
+    "id": "add-104",
+    "name": "Tatitlek Village Clinic",
+    "type": "tribal_638",
+    "lat": 60.8714,
+    "lng": -146.678,
+    "address": "Tatitlek, AK 99677",
+    "phone": "(907) 325-2235",
+    "website": "https://www.chugachmiut.org/health-social-services/clinics/tatitlek/",
+    "ihsArea": "alaska",
+    "services": [
+      "primary_care",
+      "community_health_aide",
+      "emergency"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 9:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "village_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Alaska / Chugachmiut",
+    "dataSourceNotes": "Chugachmiut-operated village clinic in Tatitlek. Small remote Prince William Sound community accessible by boat or air."
+  },
+  {
+    "id": "add-105",
+    "name": "Cocopah Wellness Center",
+    "type": "tribal_638",
+    "lat": 32.5964,
+    "lng": -114.693,
+    "address": "14526 S Veterans Dr, Somerton, AZ 85350",
+    "phone": "(928) 627-2681",
+    "website": "https://www.cocopah.com/departments.html",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "wellness"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Cocopah Indian Tribe Tribal Health Maintenance Program. Located near Yuma on the US-Mexico border."
+  },
+  {
+    "id": "add-106",
+    "name": "Yavapai-Prescott Indian Tribe Health Center",
+    "type": "tribal_638",
+    "lat": 34.54,
+    "lng": -112.468,
+    "address": "530 E Merritt St, Prescott, AZ 86301",
+    "phone": "(928) 445-8790",
+    "website": "https://www.ypit.com/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "wellness"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Yavapai-Prescott Indian Tribe health services on the Prescott reservation."
+  },
+  {
+    "id": "add-107",
+    "name": "Tonto Apache Healthcare Clinic",
+    "type": "tribal_638",
+    "lat": 34.2309,
+    "lng": -111.324,
+    "address": "BIA 101 #40, Payson, AZ 85541",
+    "phone": "(928) 474-5000",
+    "website": "https://www.tontoapachehealthcare.org/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "dental",
+      "pharmacy"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Tonto Apache Tribe healthcare facility on the Tonto Apache Reservation in Payson, AZ."
+  },
+  {
+    "id": "add-108",
+    "name": "Kaibab Paiute Health Clinic",
+    "type": "tribal_638",
+    "lat": 36.9413,
+    "lng": -112.731,
+    "address": "1 N Pipe Spring Rd, Fredonia, AZ 86022",
+    "phone": "(928) 643-7245",
+    "website": "https://www.kaibabpaiute-nsn.gov/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Kaibab Band of Paiute Indians health services near Pipe Spring National Monument in far northern Arizona."
+  },
+  {
+    "id": "add-109",
+    "name": "Las Vegas Paiute Tribe Health & Human Services",
+    "type": "tribal_638",
+    "lat": 36.1788,
+    "lng": -115.155,
+    "address": "1257 Paiute Cir, Las Vegas, NV 89106",
+    "phone": "(702) 382-0784",
+    "website": "https://www.lvpaiutetribe.com/hhs",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "optometry",
+      "pharmacy"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Las Vegas Paiute Tribe health services. Open to all federally recognized tribal members."
+  },
+  {
+    "id": "add-110",
+    "name": "Moapa Band of Paiutes Irene Benn Medical Center",
+    "type": "tribal_638",
+    "lat": 36.6825,
+    "lng": -114.594,
+    "address": "1 Lincoln St, Moapa, NV 89025",
+    "phone": "(702) 865-2787",
+    "website": "https://www.moapabandofpaiutes.com/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Moapa Band of Paiutes tribal clinic northeast of Las Vegas on the Moapa River Indian Reservation."
+  },
+  {
+    "id": "add-111",
+    "name": "Pyramid Lake Tribal Health Clinic",
+    "type": "tribal_638",
+    "lat": 39.8452,
+    "lng": -119.346,
+    "address": "705 Hwy 446, Nixon, NV 89424",
+    "phone": "(775) 574-1018",
+    "website": "https://www.plthc.org/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "lab"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Pyramid Lake Paiute Tribe health center. FQHC serving the Pyramid Lake Indian Reservation north of Reno."
+  },
+  {
+    "id": "add-112",
+    "name": "Reno-Sparks Tribal Health Center",
+    "type": "tribal_638",
+    "lat": 39.5192,
+    "lng": -119.813,
+    "address": "1715 Kuenzli St, Reno, NV 89502",
+    "phone": "(775) 329-5162",
+    "website": "https://www.rsic.org/186/Health-Center",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "optometry",
+      "lab"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programs"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Reno-Sparks Indian Colony Tribal Health Center. Full-service health facility on the Reno Colony."
+  },
+  {
+    "id": "add-113",
+    "name": "Washoe Tribal Health Center",
+    "type": "tribal_638",
+    "lat": 38.9413,
+    "lng": -119.751,
+    "address": "1559 Watasheamu Rd, Gardnerville, NV 89460",
+    "phone": "(775) 265-8622",
+    "website": "https://www.washoetribalhealth.com/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "chiropractic"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Washoe Tribe of Nevada and California health center at Dresslerville Colony in Douglas County."
+  },
+  {
+    "id": "add-114",
+    "name": "Fallon Tribal Health Center",
+    "type": "tribal_638",
+    "lat": 39.4735,
+    "lng": -118.777,
+    "address": "1001 Rio Vista Dr, Fallon, NV 89406",
+    "phone": "(775) 423-3610",
+    "website": "https://www.fthcnv.com/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "lab",
+      "radiology"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Fallon Paiute-Shoshone Tribe health center. Also operates mobile medical clinic serving regional tribal communities."
+  },
+  {
+    "id": "add-115",
+    "name": "Duckwater Health Clinic",
+    "type": "tribal_638",
+    "lat": 38.8517,
+    "lng": -115.696,
+    "address": "502 Duckwater Falls Rd, Duckwater, NV 89314",
+    "phone": "(775) 863-0222",
+    "website": "https://duckwatertribe.org/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Phoenix / Elko Service Unit",
+    "dataSourceNotes": "Duckwater Shoshone Tribe health clinic. Remote clinic on the Duckwater Reservation in Nye County, central Nevada."
+  },
+  {
+    "id": "add-116",
+    "name": "Newe Medical Clinic (Ely Shoshone)",
+    "type": "tribal_638",
+    "lat": 39.2477,
+    "lng": -114.889,
+    "address": "400 B Newe View Dr, Ely, NV 89301",
+    "phone": "(775) 289-4133",
+    "website": "https://www.elyshoshonetribe.com/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Phoenix / Elko Service Unit",
+    "dataSourceNotes": "Ely Shoshone Tribe Newe Medical Clinic in White Pine County, eastern Nevada."
+  },
+  {
+    "id": "add-117",
+    "name": "FourPoints Health - Cedar City (Paiute Indian Tribe of Utah)",
+    "type": "tribal_638",
+    "lat": 37.683,
+    "lng": -113.063,
+    "address": "376 N Paiute Dr, Cedar City, UT 84721",
+    "phone": "(435) 867-1520",
+    "website": "https://fourpointshealth.org/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programs"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "FQHC operated by Paiute Indian Tribe of Utah. FourPoints Health serves five Paiute bands. Main clinic location."
+  },
+  {
+    "id": "add-118",
+    "name": "FourPoints Health - Shivwits Clinic",
+    "type": "tribal_638",
+    "lat": 37.1681,
+    "lng": -113.722,
+    "address": "6109 W 3700 N, Ivins, UT 84738",
+    "phone": "(435) 688-8198",
+    "website": "https://fourpointshealth.org/shivwits/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "wellness"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "FourPoints Health satellite clinic near St. George, UT serving the Shivwits Band of Paiutes."
+  },
+  {
+    "id": "add-119",
+    "name": "FourPoints Health - Kanosh Clinic",
+    "type": "tribal_638",
+    "lat": 38.8005,
+    "lng": -112.43,
+    "address": "157 N Reservation Dr, Kanosh, UT 84637",
+    "phone": "(435) 253-5890",
+    "website": "https://fourpointshealth.org/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "FourPoints Health satellite clinic serving the Kanosh Band of Paiutes in Millard County, UT."
+  },
+  {
+    "id": "add-120",
+    "name": "FourPoints Health - Richfield Clinic",
+    "type": "tribal_638",
+    "lat": 38.7724,
+    "lng": -112.084,
+    "address": "440 S Main St, Richfield, UT 84701",
+    "phone": "(435) 893-6800",
+    "website": "https://fourpointshealth.org/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "FourPoints Health clinic in Richfield serving the Koosharem Band of Paiutes in Sevier County, UT."
+  },
+  {
+    "id": "add-121",
+    "name": "Sacred Circle Healthcare - Ibapah Clinic (Goshute)",
+    "type": "tribal_638",
+    "lat": 40.0285,
+    "lng": -113.966,
+    "address": "195 Tribal Center Rd, Ibapah, UT 84034",
+    "phone": "(801) 359-2256",
+    "website": "https://sacredcircle.com/location/ibapah-clinic/",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Tue 8:00 AM - 6:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Sacred Circle Healthcare Ibapah Clinic serving the Confederated Tribes of the Goshute Reservation. Extremely remote location in western Utah."
+  },
+  {
+    "id": "add-122",
+    "name": "San Simon Health Center (Tohono O'odham)",
+    "type": "ihs_direct",
+    "lat": 32.0356,
+    "lng": -112.397,
+    "address": "HC01 Box 8150, Sells, AZ 85634",
+    "phone": "(520) 362-7007",
+    "website": "https://tonhc.org/",
+    "ihsArea": "tucson",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Tucson / Tribal Healthcare Facilities",
+    "dataSourceNotes": "San Simon Health Center approximately 39 miles west of Sells on the Tohono O'odham Nation. Off State Route 86 at mile marker 74."
+  },
+  {
+    "id": "add-123",
+    "name": "Leupp Health Clinic",
+    "type": "tribal_638",
+    "lat": 35.2884,
+    "lng": -111.004,
+    "address": "Navajo Route 15, Leupp, AZ 86035",
+    "phone": "(928) 686-6567",
+    "website": "https://www.wihcc.com/our-locations.html",
+    "ihsArea": "navajo",
+    "services": [
+      "primary_care"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon, Wed-Fri 9:00 AM - 3:30 PM; Tue 1:00 PM - 3:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_station",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Navajo / WIHCC (Winslow Service Unit)",
+    "dataSourceNotes": "WIHCC satellite field clinic serving Leupp Chapter on the Navajo Nation south of Tuba City."
+  },
+  {
+    "id": "add-124",
+    "name": "Nahata Dziil Health Center (FDIHB)",
+    "type": "tribal_638",
+    "lat": 35.2332,
+    "lng": -109.33,
+    "address": "Chiih'toh Blvd, Sanders, AZ 86512",
+    "phone": "(928) 688-5600",
+    "website": "https://www.fdihb.org/nahatadziil",
+    "ihsArea": "navajo",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "lab",
+      "radiology"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Navajo / FDIHB Fort Defiance Service Unit",
+    "dataSourceNotes": "Fort Defiance Indian Hospital Board 638 clinic. 33,000 sq ft outpatient facility near I-40 and US-191 intersection. Serves Nahata Dziil (New Lands) community."
+  },
+  {
+    "id": "add-125",
+    "name": "Kaibeto Health Station",
+    "type": "ihs_direct",
+    "lat": 36.5927,
+    "lng": -111.086,
+    "address": "PO Box 2147, Kaibeto, AZ 86053",
+    "phone": "(928) 673-3267",
+    "website": "https://www.ihs.gov/navajo/healthcarefacilities/",
+    "ihsArea": "navajo",
+    "services": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_station",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Navajo / Tuba City Service Unit",
+    "dataSourceNotes": "IHS Kaibeto Health Station. Quarter mile south of Kaibeto Market. Part of Tuba City Service Unit."
+  },
+  {
+    "id": "add-126",
+    "name": "Lovelock Paiute Tribal Health",
+    "type": "tribal_638",
+    "lat": 40.1793,
+    "lng": -118.473,
+    "address": "216 Bowean St, Lovelock, NV 89419",
+    "phone": "(775) 442-2502",
+    "website": "https://www.paiutetribelovelock.org/health-services.html",
+    "ihsArea": "phoenix",
+    "services": [
+      "primary_care",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_station",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare"
+    ],
+    "dataSource": "IHS Phoenix / Tribal Health Program Directory",
+    "dataSourceNotes": "Lovelock Paiute Tribe community health representative and health services on the Lovelock Indian Colony in Pershing County."
+  },
+  {
+    "id": "add-127",
+    "name": "Nihi Dine'e Ba Wellness Center (FDIHB)",
+    "type": "tribal_638",
+    "lat": 35.7444,
+    "lng": -109.077,
+    "address": "Fort Defiance, AZ 86504",
+    "phone": "(928) 729-8000",
+    "website": "https://www.fdihb.org/",
+    "ihsArea": "navajo",
+    "services": [
+      "wellness",
+      "diabetes_prevention",
+      "behavioral_health",
+      "physical_therapy"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programs"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Navajo / FDIHB Fort Defiance Service Unit",
+    "dataSourceNotes": "FDIHB wellness facility opened 2018 adjacent to Tsehootsooi Medical Center. Integrated wellness and chronic disease management."
+  },
+  {
+    "id": "add-128",
+    "name": "Prairie Island Indian Community Health Clinic",
+    "type": "tribal_638",
+    "lat": 44.5893,
+    "lng": -92.5869,
+    "address": "1158 Island Blvd, Welch, MN 55089",
+    "phone": "(651) 385-4148",
+    "website": "https://prairieisland.org/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "diabetes_education",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Prairie Island Indian Community (Mdewakanton Dakota) operates an outpatient tribal health clinic on the reservation near Welch, MN. Serves enrolled members and eligible AI/AN."
+  },
+  {
+    "id": "add-129",
+    "name": "Shakopee Mdewakanton Sioux Community Health & Wellness",
+    "type": "tribal_638",
+    "lat": 44.7171,
+    "lng": -93.4265,
+    "address": "2330 Sioux Trail NW, Prior Lake, MN 55372",
+    "phone": "(952) 496-6150",
+    "website": "https://shakopeedakota.org/department/health-and-wellness/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "diabetes_education",
+      "nutrition",
+      "optometry",
+      "physical_therapy"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "SMSC is one of the wealthiest tribes in the US. Operates a comprehensive tribal health and wellness department in Prior Lake, MN, south of Minneapolis."
+  },
+  {
+    "id": "add-130",
+    "name": "Lower Sioux Health Care Center",
+    "type": "tribal_638",
+    "lat": 44.5528,
+    "lng": -94.9867,
+    "address": "39648 Reservation Highway 3, Morton, MN 56270",
+    "phone": "(507) 697-8600",
+    "website": "https://lowersiouxhhs.org/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "nutrition",
+      "diabetes_education",
+      "community_health",
+      "telehealth"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Lower Sioux Indian Community (Mdewakanton Dakota). Health Care Center includes clinic, dental, community health, nutrition services, and telehealth. Located on the Lower Sioux Reservation."
+  },
+  {
+    "id": "add-131",
+    "name": "Upper Sioux Community Health Services",
+    "type": "tribal_638",
+    "lat": 44.7529,
+    "lng": -95.5081,
+    "address": "5744 Highway 167, Granite Falls, MN 56241",
+    "phone": "(320) 564-2360",
+    "website": "https://www.uppersiouxcommunity-nsn.gov/health-services",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "nutrition",
+      "diabetes_education",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Upper Sioux Community (Pezihutazizi Oyate / Dakota). Outpatient health clinic offering preventative, diagnostic, and treatment services in Granite Falls, MN."
+  },
+  {
+    "id": "add-132",
+    "name": "Leech Lake Band Tribal Community Health Clinics",
+    "type": "tribal_638",
+    "lat": 47.3777,
+    "lng": -94.5964,
+    "address": "190 Sailstar Drive NW, Cass Lake, MN 56633",
+    "phone": "(218) 335-4500",
+    "website": "https://www.llojibwe.org/health/communityclinics.html",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "diabetes_education",
+      "community_health",
+      "nutrition",
+      "immunizations"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Leech Lake Band of Ojibwe tribal health division operates community clinics separate from the IHS Cass Lake Hospital. Six community-based satellite clinics across the reservation including Ball Club, Inger, and Onigum."
+  },
+  {
+    "id": "add-133",
+    "name": "Sokaogon Chippewa Community Health Clinic",
+    "type": "tribal_638",
+    "lat": 45.5672,
+    "lng": -88.9039,
+    "address": "3144 Vanzile Street, Crandon, WI 54520",
+    "phone": "(715) 478-5180",
+    "website": "https://scchealthclinic.com/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Sokaogon Chippewa Community (Mole Lake Band of Lake Superior Chippewa). Tribal 638 health clinic in Crandon, WI, serving enrolled members and eligible AI/AN in Forest County."
+  },
+  {
+    "id": "add-134",
+    "name": "St. Croix Tribal Health Clinic",
+    "type": "tribal_638",
+    "lat": 45.888,
+    "lng": -92.1609,
+    "address": "4404 WI-70, Webster, WI 54893",
+    "phone": "(715) 349-8554",
+    "website": "https://stcroixojibwe-nsn.gov/health-family-services/comprehensive-wellness-clinic/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "St. Croix Chippewa Indians of Wisconsin. Main tribal health clinic located in the Big Sand Lake Community (Hertel/Webster area). Comprehensive wellness clinic providing holistic healthcare."
+  },
+  {
+    "id": "add-135",
+    "name": "Ho-Chunk Nation House of Wellness Clinic",
+    "type": "tribal_638",
+    "lat": 43.4409,
+    "lng": -89.771,
+    "address": "S2845 White Eagle Rd, Baraboo, WI 53913",
+    "phone": "(888) 559-5294",
+    "website": "https://health.ho-chunk.com/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "optometry",
+      "podiatry",
+      "diabetes_education",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Ho-Chunk Nation operates two main ambulatory clinics. House of Wellness in Baraboo is the second full clinic alongside the Black River Falls Health Care Center (already listed). Includes medical, dental, pharmacy, optometry, and podiatry."
+  },
+  {
+    "id": "add-136",
+    "name": "Ho-Chunk Nation Tomah Health Office",
+    "type": "tribal_638",
+    "lat": 43.9858,
+    "lng": -90.504,
+    "address": "430 Julie St Suite 2, Tomah, WI 54660",
+    "phone": "(608) 372-5202",
+    "website": "https://health.ho-chunk.com/Locations/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Ho-Chunk Nation satellite health office in Tomah, WI. One of five satellite offices providing public health, community health nursing, dietitians, mental health clinicians, and alcohol/drug staff."
+  },
+  {
+    "id": "add-137",
+    "name": "Ho-Chunk Nation La Crosse Health Office",
+    "type": "tribal_638",
+    "lat": 43.8136,
+    "lng": -91.251,
+    "address": "724 Main Street, La Crosse, WI 54601",
+    "phone": "(608) 784-3083",
+    "website": "https://health.ho-chunk.com/Locations/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Ho-Chunk Nation satellite health office in Three Rivers House, La Crosse, WI. Provides community health nursing, behavioral health, nutrition, and social services."
+  },
+  {
+    "id": "add-138",
+    "name": "Nimkee Memorial Wellness Center (Saginaw Chippewa)",
+    "type": "tribal_638",
+    "lat": 43.5833,
+    "lng": -84.7753,
+    "address": "2591 S Leaton Rd, Mount Pleasant, MI 48858",
+    "phone": "(989) 775-4600",
+    "website": "https://www.sagchip.org/nimkee/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "optometry",
+      "diabetes_education",
+      "nutrition",
+      "physical_therapy",
+      "podiatry"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Saginaw Chippewa Indian Tribe of Michigan. Nimkee Memorial Wellness Center is a comprehensive tribal health facility serving members and eligible AI/AN within the five-county service area. Named after a tribal elder."
+  },
+  {
+    "id": "add-139",
+    "name": "Little River Band Health Service Center",
+    "type": "tribal_638",
+    "lat": 44.2449,
+    "lng": -86.3242,
+    "address": "2608 Government Center Drive, Manistee, MI 49660",
+    "phone": "(231) 398-6601",
+    "website": "https://lrboi-nsn.gov/membership-services/health-services",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Little River Band of Ottawa Indians. Tribal health clinic at the Government Center campus in Manistee, MI. Pharmacy: (231) 398-6853. Toll-free: (888) 382-8299."
+  },
+  {
+    "id": "add-140",
+    "name": "Nottawaseppi Huron Band Pine Creek Health Center",
+    "type": "tribal_638",
+    "lat": 42.1047,
+    "lng": -85.3178,
+    "address": "1474 Mno-Bmadzewen Way, Fulton, MI 49052",
+    "phone": "(269) 729-4422",
+    "website": "https://nhbp-nsn.gov/health-and-human-services/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "diabetes_education",
+      "nutrition",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Nottawaseppi Huron Band of the Potawatomi (NHBP). Pine Creek Health Center on the Pine Creek Indian Reservation near Athens, MI. Full-spectrum primary care and behavioral health services."
+  },
+  {
+    "id": "add-141",
+    "name": "Gun Lake Tribal Health Center",
+    "type": "tribal_638",
+    "lat": 42.5844,
+    "lng": -85.6579,
+    "address": "2880 Mission Drive, Shelbyville, MI 49344",
+    "phone": "(269) 397-1760",
+    "website": "https://gunlaketribe-nsn.gov/health-human-services/tribal-health-center/",
+    "ihsArea": "bemidji",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "diabetes_education",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Bemidji Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Match-e-be-nash-she-wish Band of Pottawatomi Indians (Gun Lake Tribe). Tribally owned and operated clinic on the government campus in Shelbyville, MI."
+  },
+  {
+    "id": "add-142",
+    "name": "Sauk-Suiattle Tribe Health Clinic",
+    "type": "tribal_638",
+    "lat": 48.2566,
+    "lng": -121.5967,
+    "address": "5318 Chief Brown Lane, Darrington, WA 98241",
+    "phone": "(360) 436-1124",
+    "website": "https://sauk-suiattle.com/HSS.html",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Sauk-Suiattle Indian Tribe health clinic in Darrington, WA. Provides outpatient medical, mental health, and substance abuse services."
+  },
+  {
+    "id": "add-143",
+    "name": "Upper Skagit Tribal Health Clinic",
+    "type": "tribal_638",
+    "lat": 48.5057,
+    "lng": -122.2302,
+    "address": "25959 Community Plaza Way, Sedro Woolley, WA 98284",
+    "phone": "(360) 854-7070",
+    "website": "https://upperskagittribe-nsn.gov/departments/health-services/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Upper Skagit Indian Tribe. Ambulatory care and behavioral health clinic serving tribal members and eligible AI/AN in the Skagit Valley area of Washington."
+  },
+  {
+    "id": "add-144",
+    "name": "Nooksack Indian Health Care Center",
+    "type": "tribal_638",
+    "lat": 48.9182,
+    "lng": -122.3474,
+    "address": "2510 Sulwhanon Drive, Everson, WA 98247",
+    "phone": "(360) 966-2106",
+    "website": "https://nooksacktribe.org/departments/health/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Nooksack Indian Tribe. Tribal health care center in Everson, WA (tribal HQ is in Deming). Comprehensive primary care and behavioral health services."
+  },
+  {
+    "id": "add-145",
+    "name": "Samish Indian Nation Health Department",
+    "type": "tribal_638",
+    "lat": 48.5126,
+    "lng": -122.6127,
+    "address": "715 Seafarers Way Suite 103, Anacortes, WA 98221",
+    "phone": "(360) 899-5282",
+    "website": "https://www.samishtribe.nsn.us/departments/health",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "community_health"
+    ],
+    "culturalServices": [
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Samish Indian Nation health services in Anacortes, WA. Provides community health, behavioral health, and PRC referral services for enrolled Samish members."
+  },
+  {
+    "id": "add-146",
+    "name": "Jamestown S'Klallam Family Health Clinic",
+    "type": "tribal_638",
+    "lat": 48.0795,
+    "lng": -123.0985,
+    "address": "808 N 5th Ave, Sequim, WA 98382",
+    "phone": "(360) 683-5900",
+    "website": "https://jamestownhealth.org/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "optometry",
+      "physical_therapy",
+      "nutrition",
+      "diabetes_education"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Jamestown S'Klallam Tribe. Comprehensive family health clinic in Sequim, WA, open to both tribal members and the community. FQHC-look-alike designation."
+  },
+  {
+    "id": "add-147",
+    "name": "Lower Elwha Klallam Health Clinic",
+    "type": "tribal_638",
+    "lat": 48.1159,
+    "lng": -123.5585,
+    "address": "243511 Highway 101 W, Port Angeles, WA 98363",
+    "phone": "(360) 452-6252",
+    "website": "https://elwhahealth.org/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Lower Elwha Klallam Tribe. Health and dental clinic on Highway 101 west of Port Angeles, WA. Klallam Counseling Services at a separate nearby address: 243613 Hwy 101 W."
+  },
+  {
+    "id": "add-148",
+    "name": "Skokomish Health and Wellness Center",
+    "type": "tribal_638",
+    "lat": 47.3224,
+    "lng": -123.1457,
+    "address": "N 100 Tribal Center Rd, Skokomish, WA 98584",
+    "phone": "(360) 426-5755",
+    "website": "https://skokomish.org/health-clinic/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Skokomish Indian Tribe. Wellness Center on the reservation near Shelton, WA. Provides medical, dental, behavioral health, and community health services."
+  },
+  {
+    "id": "add-149",
+    "name": "Cowlitz Indian Tribe Medical Clinic",
+    "type": "tribal_638",
+    "lat": 46.1324,
+    "lng": -122.9334,
+    "address": "1044 11th Ave, Longview, WA 98632",
+    "phone": "(360) 575-8275",
+    "website": "https://www.cowlitz.org/medical",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "diabetes_education",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Cowlitz Indian Tribe. Tribal medical clinic in Longview, WA, offering comprehensive health services including medical, dental, pharmacy, and behavioral health."
+  },
+  {
+    "id": "add-150",
+    "name": "Snoqualmie Tribe Health and Wellness",
+    "type": "tribal_638",
+    "lat": 47.5288,
+    "lng": -121.8256,
+    "address": "9575 Ethan Wade Way SE, Snoqualmie, WA 98065",
+    "phone": "(425) 888-6551",
+    "website": "https://snoqualmietribe.us/health-wellness/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "diabetes_education",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 9:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Snoqualmie Indian Tribe. Health and wellness services including family health care, mental health counseling, diabetes management, immunizations, well-child care, and women's health."
+  },
+  {
+    "id": "add-151",
+    "name": "Stillaguamish Tribal Wellness Clinic",
+    "type": "tribal_638",
+    "lat": 48.1708,
+    "lng": -122.129,
+    "address": "3322 236th St NE, Arlington, WA 98223",
+    "phone": "(360) 435-9338",
+    "website": "https://www.stillaguamish.com/departmentprogramservice/wellness-clinic/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon, Wed 8:00 AM - 6:00 PM; Tue, Thu, Fri 8:00 AM - 4:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Stillaguamish Tribe of Indians. Wellness clinic in Arlington, WA. Also open select Saturdays (2nd and 4th of each month, 9 AM - 1 PM). Behavioral health at separate location: 5700 172nd St NE, Suite B."
+  },
+  {
+    "id": "add-152",
+    "name": "Suquamish Tribe Wellness Center",
+    "type": "tribal_638",
+    "lat": 47.7313,
+    "lng": -122.5563,
+    "address": "18490 Suquamish Way, Suquamish, WA 98392",
+    "phone": "(360) 394-8578",
+    "website": "https://suquamish.nsn.us/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "behavioral_health",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 7:30 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "call_to_confirm",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Suquamish Tribe. Wellness center on the Port Madison Indian Reservation providing medical, behavioral health, substance abuse treatment, and community health services."
+  },
+  {
+    "id": "add-153",
+    "name": "Nimiipuu Health - Kamiah Clinic",
+    "type": "tribal_638",
+    "lat": 46.2271,
+    "lng": -116.0294,
+    "address": "313 3rd Street, Kamiah, ID 83536",
+    "phone": "(208) 935-0733",
+    "website": "https://nimiipuuhealth.org/kamiah-clinic/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Nez Perce Tribe (Nimiipuu) satellite clinic in Kamiah, ID. Second site of Nimiipuu Health (main clinic in Lapwai is already listed). Provides medical, dental, pharmacy, and behavioral health."
+  },
+  {
+    "id": "add-154",
+    "name": "Lake Roosevelt Community Health Center - Inchelium",
+    "type": "tribal_638",
+    "lat": 48.3097,
+    "lng": -118.1945,
+    "address": "39 Shortcut Rd, Inchelium, WA 99138",
+    "phone": "(509) 722-7006",
+    "website": "https://www.lrchc.com/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "lab",
+      "radiology"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 7:30 AM - 4:00 PM; Wed 10:00 AM - 4:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Lake Roosevelt Community Health Centers (LRCHC) is tribally owned by the Confederated Tribes of the Colville Reservation. Title 1 PL 93-638 contractor and Section 330 Community Health Center. Serves Inchelium community in Ferry County."
+  },
+  {
+    "id": "add-155",
+    "name": "Lake Roosevelt Community Health Center - Keller",
+    "type": "tribal_638",
+    "lat": 47.9392,
+    "lng": -118.6863,
+    "address": "11665 S Highway 21, Keller, WA 99140",
+    "phone": "(509) 634-7300",
+    "website": "https://www.lrchc.com/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "lab",
+      "radiology",
+      "podiatry"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon, Thu 8:30 AM - 4:30 PM; Wed 10:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Lake Roosevelt Community Health Centers - San Poil Valley Community Health Center in Keller, WA. Colville Confederated Tribes. PL 93-638 contractor. Limited days (Mon, Thu, some Wed)."
+  },
+  {
+    "id": "add-156",
+    "name": "Colville Tribes Omak Health Clinic",
+    "type": "tribal_638",
+    "lat": 48.411,
+    "lng": -119.5279,
+    "address": "633 2nd Ave S, Omak, WA 98841",
+    "phone": "(509) 422-7420",
+    "website": "https://www.cct-hhs.com/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Confederated Tribes of the Colville Reservation - Omak district clinic. One of four clinic locations operated by Colville HHS (Omak, Nespelem, Inchelium, Keller). Nespelem is the IHS Service Unit HQ already listed."
+  },
+  {
+    "id": "add-157",
+    "name": "Camas Center Clinic (Kalispel Tribe)",
+    "type": "tribal_638",
+    "lat": 48.2904,
+    "lng": -117.2706,
+    "address": "1124 Camas Center Loop, Cusick, WA 99119",
+    "phone": "(509) 447-7122",
+    "website": "https://camascenterclinic.org/",
+    "ihsArea": "portland",
+    "services": [
+      "primary_care",
+      "dental",
+      "behavioral_health",
+      "pharmacy",
+      "nutrition",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Portland Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Kalispel Tribe of Indians. Camas Center for Community Wellness in Cusick/Usk area, WA. Medical and dental clinic open to the community. Embodies commitment to holistic health."
+  },
+  {
+    "id": "add-158",
+    "name": "Zia Pueblo Health Center",
+    "type": "tribal_638",
+    "lat": 35.4964,
+    "lng": -106.858,
+    "address": "155 Capitol Square Drive, Zia Pueblo, NM 87053",
+    "phone": "(505) 867-5258",
+    "website": "https://www.ziapueblo.org/health-wellness",
+    "ihsArea": "albuquerque",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "community_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Albuquerque Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Pueblo of Zia health and dental clinic. Operated as a tribal 638 health center. Medical appointments ext. 107, dental ext. 145, pharmacy ext. 120."
+  },
+  {
+    "id": "add-159",
+    "name": "Ysleta del Sur Pueblo Health Clinic",
+    "type": "tribal_638",
+    "lat": 31.6917,
+    "lng": -106.3285,
+    "address": "200 Jose Sierra Drive, El Paso, TX 79907",
+    "phone": "(915) 860-6118",
+    "website": "https://www.ysletadelsurpueblo.org/tribal-services/department-of-health-and-human-services/health-care-division",
+    "ihsArea": "albuquerque",
+    "services": [
+      "primary_care",
+      "dental",
+      "pharmacy",
+      "behavioral_health",
+      "optometry",
+      "lab",
+      "nutrition",
+      "diabetes_education",
+      "community_health"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 5:00 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Albuquerque Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Ysleta del Sur Pueblo (Tigua). State-of-the-art 78,000 sq ft healthcare facility opened 2023 with 100+ healthcare professionals. Primary care, dental, optometry, pharmacy, lab, behavioral health, and public health. Only Pueblo in Texas under Albuquerque Area jurisdiction."
+  },
+  {
+    "id": "add-160",
+    "name": "Acoma-Canoncito-Laguna Hospital (IHS) - Laguna Satellite",
+    "type": "tribal_638",
+    "lat": 35.0383,
+    "lng": -107.3718,
+    "address": "02 Veterans Blvd, Laguna, NM 87026",
+    "phone": "(505) 552-5300",
+    "website": "https://www.ihs.gov/albuquerque/healthcarefacilities/acl/",
+    "ihsArea": "albuquerque",
+    "services": [
+      "primary_care",
+      "community_health",
+      "nutrition",
+      "diabetes_education"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "satellite_clinic",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Albuquerque Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Pueblo of Laguna satellite health station on Veterans Blvd. Supplements the main ACL Hospital in San Fidel and the tribally-operated Laguna HC already listed."
+  },
+  {
+    "id": "add-161",
+    "name": "Acoma Pueblo Health Center",
+    "type": "tribal_638",
+    "lat": 34.9047,
+    "lng": -107.566,
+    "address": "55 Acoma Health Center Rd, Acoma, NM 87034",
+    "phone": "(505) 552-6643",
+    "website": "https://www.puebloofacoma.org/",
+    "ihsArea": "albuquerque",
+    "services": [
+      "primary_care",
+      "community_health",
+      "diabetes_education",
+      "behavioral_health",
+      "nutrition"
+    ],
+    "culturalServices": [
+      "traditional_healing",
+      "cultural_programming"
+    ],
+    "telehealth": true,
+    "telehealthServices": [
+      "primary_care",
+      "behavioral_health"
+    ],
+    "hours": {
+      "primary_care": "Mon-Fri 8:00 AM - 4:30 PM"
+    },
+    "acceptingNewPatients": "yes",
+    "prcEligible": true,
+    "prcdaName": null,
+    "facilityCategory": "health_center",
+    "insuranceAccepted": [
+      "ihs",
+      "medicaid",
+      "medicare",
+      "private"
+    ],
+    "dataSource": "IHS Albuquerque Area / Tribal Health Program Directory",
+    "dataSourceNotes": "Pueblo of Acoma tribal health center. Supplements the main ACL Hospital in San Fidel with on-pueblo primary care and community health services."
   }
 ]
