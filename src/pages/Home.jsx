@@ -35,13 +35,13 @@ export default function Home() {
   const [mobileView, setMobileView] = useState('list'); // 'list' | 'map'
 
   const {
-    query, parsedQuery, activeFilters,
+    query, parsedQuery, activeFilters, geocoding,
     handleQueryChange, handleSubmit, toggleFilter,
     setLocationFromGeo, clearSearch,
   } = useSearch();
 
   const { position, loading: geoLoading, error: geoError, requestLocation } = useGeolocation();
-  const { facilities: searchFiltered, center, hasLocation } = useFilteredFacilities(parsedQuery, hasSearched ? 500 : null);
+  const { facilities: searchFiltered, center, hasLocation, locationNotFound, locationQuery, totalMatches } = useFilteredFacilities(parsedQuery, hasSearched ? 150 : null);
 
   // Count facilities per area
   const facilityCounts = useMemo(() => {
@@ -244,16 +244,29 @@ export default function Home() {
         {hasSearched ? (
           /* Search results mode */
           <div>
-            <div className="flex items-center justify-between mb-3">
-              <p className="text-sm text-iha-blue/60">
-                {displayFacilities.length} results for "{query || 'your location'}"
-              </p>
-              <button
-                onClick={handleClearSearch}
-                className="text-sm font-semibold text-iha-orange hover:text-iha-umber transition-colors"
-              >
-                Clear search
-              </button>
+            <div className="mb-3">
+              <div className="flex items-center justify-between">
+                <p className="text-sm text-iha-blue/60">
+                  {geocoding ? (
+                    'Finding location...'
+                  ) : hasLocation ? (
+                    <>{displayFacilities.length} results near {center?.label || query}{totalMatches > displayFacilities.length ? ` (showing closest ${displayFacilities.length} of ${totalMatches})` : ''}</>
+                  ) : (
+                    <>{displayFacilities.length} results for "{query}"</>
+                  )}
+                </p>
+                <button
+                  onClick={handleClearSearch}
+                  className="text-sm font-semibold text-iha-orange hover:text-iha-umber transition-colors"
+                >
+                  Clear search
+                </button>
+              </div>
+              {locationNotFound && (
+                <p className="text-sm text-iha-umber mt-2 bg-iha-orange/10 px-3 py-2 iha-card-sm">
+                  Could not find location "{locationQuery}". Try a zip code, city name, or use the location button. Showing top results by service match.
+                </p>
+              )}
             </div>
             {renderMapAndList()}
           </div>
